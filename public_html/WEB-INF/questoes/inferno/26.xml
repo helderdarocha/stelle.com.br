@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Entre os separatistas Dante encontra o espírito de Bertran de Born, que carrega a sua cabeça separada do corpo. Por que Bertran de Born foi punido dessa maneira?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Porque mandara cortar a cabeça de seus inimigos</alternativa>
+		<alternativa>Porque havia espalhado mentiras que causaram a decapitação de pessoas inocentes</alternativa>
+		<alternativa>Porque havia espalhado boatos que causaram a condenação e posterior decapitação do rei da Inglaterra.</alternativa>
+		<alternativa>Porque foi condenado à guilhotina quando sua traição foi descoberta</alternativa>
+		<alternativa correta="true">Porque havia semeado a discórdia entre o rei da Inglaterra e seu filho.</alternativa>
+	</alternativas>
+	<resposta>
+	Bertran de Born tem a cabeça separada do corpo em retribuição ao seu pecado em ter separado o pai do filho.
+	</resposta>
+</questao>

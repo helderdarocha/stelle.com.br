@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>O que são, no céu, as sete ninfas de Beatriz?</enunciado>
+		<alternativas>
+			<alternativa>São sete anjos.</alternativa>
+			<alternativa>São os sete planetas.</alternativa>
+			<alternativa>São sete ninfas.</alternativa>
+			<alternativa correta="true">São sete estrelas.</alternativa>
+			<alternativa>São aves.</alternativa>
+		</alternativas>
+	<resposta>
+	As sete ninfas são as sete estrelas que Dante viu no céu antes de atravessar a porta de São Pedro. Elas representam as sete virtudes.
+	</resposta>
+</questao>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>O que acontece com aquele que olha para trás depois que passa pela porta do purgatório?</enunciado>
+		<alternativas>
+			<alternativa>Ele se transforma em uma estátua de sal.</alternativa>
+			<alternativa>Ele é enviado para o inferno.</alternativa>
+			<alternativa>Ele é consumido pelo fogo.</alternativa>
+			<alternativa correta="true">Ele volta para diante do anjo e da porta.</alternativa>
+			<alternativa>Ele é punido com mais 30 anos no purgatório.</alternativa>
+		</alternativas>
+	<resposta>
+	Quem entra e olha para trás, diz o anjo, volta para diante da porta outra vez.
+	</resposta>
+</questao>

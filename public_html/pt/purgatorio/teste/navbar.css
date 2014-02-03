@@ -1,0 +1,17 @@
+BODY {background-color: rgb(0%,20%,0%); color: rgb(90%,100%,0%);
+		  background-image: url(../../../imagens/pur_back_bar.jpg)}
+BODY, P, TD {font-family: tahoma, sans-serif; font-size: 12px; color: rgb(90%,100%,0%);}
+A:link {color: rgb(90%,100%,0%); font-weight: bold; text-decoration: none}
+A:visited {color: rgb(50%,100%,0%); font-weight: bold; text-decoration: none}
+P {text-align: center}
+P.ref {line-height: 100%; margin-top: 7px; margin-bottom: 7px;
+		padding: 1px; border-style: outset; border-width: 1px; border-color: green;
+		background-color: rgb(10%,25%,10%); width: 100%}
+A.mainlink:visited {color: rgb(90%,100%,0%); text-decoration: none}
+.marc {font-size: 11px; text-align: right; line-height: 100%; font-family: tahoma, sans-serif}
+a:hover {color: rgb(100%,100%,70%);}
+td.resposta {text-align: center; font-weight: bold}
+input {background: rgb(40%,60%,20%);
+	  font: bold 10pt sans-serif;
+	  color: white;}
+.ans {line-height: 150%}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Depois da repreensão de Beatriz, Dante é mergulhado no rio Letes. Qual o efeito que as águas do rio Letes têm sobre Dante?</enunciado>
+		<alternativas>
+			<alternativa>Purificam e libertam Dante de todo pecado.</alternativa>
+			<alternativa correta="true">Fazem com que Dante esqueça de todos os pecados que cometeu.</alternativa>
+			<alternativa>Permitem que Dante veja além de sua visão mortal.</alternativa>
+			<alternativa>Fazem com que Dante esqueça sua vida na Terra.</alternativa>
+			<alternativa>Tornam a alma de Dante mais leve e capaz de subir ao céu. </alternativa>
+		</alternativas>
+	<resposta>
+	O rio Letes causa o esquecimento de toda a memória do pecado. Dante lembra-se de sua vida na Terra, das coisas boas que fez e de toda a sua viagem, mas não se lembra mais dos pecados que confessou à Beatriz poucas horas antes.
+	</resposta>
+</questao>

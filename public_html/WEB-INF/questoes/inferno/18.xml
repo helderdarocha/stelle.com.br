@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Como é que Dante atravessa o rio de sangue no sétimo círculo?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa correta="true">Nas costas de um centauro</alternativa>
+		<alternativa>Sobre uma ponte de pedra</alternativa>
+		<alternativa>No bote do barqueiro Nesso</alternativa>
+		<alternativa>Caminhando sobre uma parte rasa onde o sangue não queima</alternativa>
+		<alternativa>Nos braços de um anjo</alternativa>
+	</alternativas>
+	<resposta>
+	A travessia é feita numa parte rasa do rio. Dante atravessa nas costas de um centauro. O centauro é Nesso (que não é barqueiro como sugere a alternativa c). Veja Canto XII.
+	</resposta>
+</questao>

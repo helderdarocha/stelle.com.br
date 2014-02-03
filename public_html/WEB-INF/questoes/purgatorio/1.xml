@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Quanto tempo esperam as almas desencarnadas antes que possam ter acesso ao purgatório?</enunciado>
+		<alternativas>
+			<alternativa>Mil anos.</alternativa>
+			<alternativa>Cento e quarenta e quatro anos.</alternativa>
+			<alternativa correta="true">Depende do tipo de pecado cometido, do tempo em que viveram no pecado e das orações recebidas pelas suas almas.</alternativa>
+			<alternativa>Trinta vezes o tempo em que viveram no pecado.</alternativa>
+			<alternativa>O mesmo tempo em que viveram no pecado.</alternativa>
+		</alternativas>
+	<resposta>
+	O tempo pode ser nenhum, o tempo em que viveram no pecado, no caso dos negligentes e ocupados, ou até 30 vezes o tempo que viveram no pecado, no caso dos excomungados. O tempo pode ser reduzido se a alma contar com as orações de uma alma vivente virtuosa.
+	</resposta>
+</questao>

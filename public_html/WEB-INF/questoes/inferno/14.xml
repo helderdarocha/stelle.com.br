@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual das opções abaixo contém o círculo ou círculos onde é punida a fraude?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Primeiro círculo</alternativa>
+		<alternativa>Círculos 2 a 5</alternativa>
+		<alternativa>Sexto círculo</alternativa>
+		<alternativa>Sétimo círculo</alternativa>
+		<alternativa correta="true">Círculos 8 e 9</alternativa>
+	</alternativas>
+	<resposta>
+	O oitavo círculo pune a fraude simples, que é praticada contra desconhecidos. O nono pude a fraude complexa, praticada contra pessoas que confiam no agressor.
+	</resposta>
+</questao>

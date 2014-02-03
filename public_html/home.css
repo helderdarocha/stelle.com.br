@@ -1,0 +1,19 @@
+BODY {background-color: rgb(95%,95%,85%)}
+
+H1 {color: maroon; font-size: 24pt; 
+    font-family: Garamond, serif;
+    font-weight: normal}
+H4 {color: maroon;
+    font-family: Garamond, serif;
+    font-weight: normal}
+
+P	{font-family: Garamond, serif;
+	 font-size: 12pt; line-height: 1.5;
+     color: rgb(20%,10%,10%);
+     text-align: justify;
+     text-indent: 1cm}
+	 
+A {text-decoration: none}
+A:link {color: rgb(50%,20%,0%)}
+A:visited {color: black; text-decoration: underline}
+A:hover {text-decoration: underline}

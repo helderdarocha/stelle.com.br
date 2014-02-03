@@ -1,0 +1,86 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>A Divina Comédia - Inferno</TITLE>
+	<script src="../../cantos.js"></script>
+	<script><!--
+	if (!parent.comedia) {
+		location.href="inferno.html";
+	}
+	if (parent.nav) {
+		parent.nav.location.href="navbar.jsp";
+	}
+
+	img_atual = getCookie('menu_imagem');	
+	document.cookie="menu_imagem=null; expires=" + (new Date((new Date(1000)).getTime())).toGMTString();
+	
+    if (img_atual != null && img_atual != "null") {
+		location.href = img_atual;
+	}
+	
+    marcada = getCookie('marcada');       
+	
+    if (getCookie('continua') == "sim") {
+		document.cookie="continua=nao; path=/";
+		location.href = marcada;
+	}
+	//--></script>
+	
+	<LINK REL="STYLESHEET" HREF="cantos.css">
+
+	<style>
+        body {background-image: url(../../imagens/inf_capa_back.jpg)}
+	p, td {color: rgb(20%,10%,10%)}
+	a:link, a:visited {color: rgb(50%,25%,0%)}
+	h1, h2, h3 {color: rgb(80%,0%,0%); margin-top: 20px}
+	h2 {font-size: 22pt}
+	p.idx {font-size: 14pt; text-align: left}
+    p.about {color: rgb(60%,30%,30%); text-indent: 0px; 
+             text-align: center; line-height: 150%;
+             margin: 24px 0px; font-weight: bold; font-size: 12pt; }
+	</style>
+    <script>
+    if (!isNS4) {
+		//document.write("<style>.secoes {background-color: rgb(25%,10%,10%); border-style: outset; border-width: 2px; border-color: rgb(45%,20%,20%); } </style>");
+	}
+    </script>
+</HEAD>
+
+<BODY><TABLE WIDTH=490><TR><TD>
+<div style="margin-left: 60px">
+<H1><img src="../../imagens/inf_capa_com.gif" height=24 width=177></H1>
+<H1><br><A HREF="portal.html"><img src="../../imagens/inf_capa_tit.gif" border=0 height=127 width=274></a></H1>
+<p>&nbsp;</p>
+<H2><img src="../../imagens/inf_capa_dan.gif" height=54 width=230></H2>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p class=about>Adaptação em prosa e notas<br>por <a href="/helder.html">Helder da Rocha</a></p>
+</div>
+
+</TD></TR></TABLE>
+<script>
+bgnd = new Image();
+bgnd.src = "../../imagens/inf_back.jpg";
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21073777-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</BODY>
+</HTML>

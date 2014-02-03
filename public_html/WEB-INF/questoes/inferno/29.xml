@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Ainda na Ptoloméia, Dante encontra o Frei Alberigo de Manfredi, que convidou seus inimigos para um banquete de reconciliação, mas depois os traiu, matando-os todos, cruelmente. Alberigo, que tem apenas o rosto fora do gelo, pede a Dante que tire o gelo de seus olhos, criado pelas suas lágrimas que congelara. Qual foi a atitude de Dante?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa correta="true">Dante concordou e prometeu que atenderia o pedido desde que Alberigo falasse com ele, mas depois que o espírito disse tudo o que tinha a dizer, Dante o traiu e não cumpriu a promessa.</alternativa>
+		<alternativa>Dante concordou e prometeu que atenderia o pedido desde que Alberigo falasse com ele. Depois que Alberigo falou, Dante tentou tirar o gelo mas não conseguiu, porque novas lágrimas logo preencheram a cava dos olhos outra vez.</alternativa>
+		<alternativa>Dante ignorou o pedido e tentou fazer com que Alberigo falasse à força, arrancando seus cabelos. Alberigo acabou falando depois que seus companheiros revelaram seus crimes a Dante.</alternativa>
+		<alternativa>Dante ignorou o pedido e Alberigo recusou-se a falar. Virgílio então invocou os poderes dos céus e Alberigo contou a sua história.</alternativa>
+		<alternativa>Dante, irritado com a crueldade de Alberigo, chutou o seu rosto e acabou removendo o gelo dos olhos. Alberigo, satisfeito, acabou falando.</alternativa>
+	</alternativas>
+	<resposta>
+	Dante considerou o não cumprimento da promessa feita ao frei Alberigo uma cortesia.
+	</resposta>
+</questao>

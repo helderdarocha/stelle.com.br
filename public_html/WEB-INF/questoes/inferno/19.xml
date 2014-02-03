@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Onde estão as almas dos suicidas no sétimo círculo?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Correndo pela floresta perseguidos por cadelas famintas</alternativa>
+		<alternativa>Enforcados no alto das árvores</alternativa>
+		<alternativa>Escondidos atrás das árvores e fugindo das Hárpias</alternativa>
+		<alternativa>Debaixo do chão, de onde são arrancados de vez em quando pelas Hárpias</alternativa>
+		<alternativa correta="true">Dentro das árvores, que sangram quando seus galhos são quebrados.</alternativa>
+	</alternativas>
+	<resposta>
+	Os suicidas estão dentro das árvores, que sangram quando seus galhos são quebrados. Os suicidas cristãos chegam ao sétimo círculo como sementes e crescem, se transformando em um arbusto espinhoso que tem seus galhos arrancados pelas Hárpias.
+	</resposta>
+</questao>

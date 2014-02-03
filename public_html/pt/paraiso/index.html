@@ -1,0 +1,73 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>A Divina Comédia - Paraíso</TITLE>
+	
+	<script><!--
+	if (!parent.comedia) {
+		location.href="paraiso.html";
+	}
+	if (parent.nav) {
+		parent.nav.location.href="navbar.jsp";
+	}
+
+	function getCookies() {
+      cookies = document.cookie.split("; ");
+      for (i = 0; i < cookies.length; i++) {
+         cookies[i] = cookies[i].split("=");
+         cookies[i][0] = unescape(cookies[i][0]); // nome
+         cookies[i][1] = unescape(cookies[i][1]); // valor
+      }
+      return cookies;
+    }
+   
+    function getCookie(name) {
+      cookies = getCookies();
+      for (i = 0; i < cookies.length; i++) {
+         if(cookies[i][0] == name) {
+            return cookies[i][1];      // valor
+         }
+      }
+      return null;
+    } 
+	
+	img_atual = getCookie('menu_imagem');	
+	document.cookie="menu_imagem=null; expires=" + (new Date((new Date(1000)).getTime())).toGMTString();
+	if (img_atual != null && img_atual != "null") {
+		location.href = img_atual;
+	}
+	marcada = getCookie('marcada');
+	if (getCookie('continua') == "sim") {
+		document.cookie="continua=nao; path=/";
+		location.href = marcada;
+	}
+	//--></script>
+	
+<LINK REL="STYLESHEET" HREF="cantos.css">
+	<style>
+	body {background-image: url(../../imagens/par_capa_back.jpg)}
+	p, td {color: rgb(90%,90%,90%)}
+	a:link, a:visited {color: rgb(70%,90%,100%)}
+	h1, h2, h3 {color: rgb(50%,50%,100%)}
+	h2 {font-size: 14pt; font-style:normal}
+	p.idx {font-size: 14pt}
+	</style>
+</HEAD>
+
+<BODY><TABLE WIDTH=490><TR><TD>
+<div style="margin-left: 60px">
+<H1><br><img src="../../imagens/par_capa_com.gif" height=24 width=177></H1>
+<H1><br><A HREF="paraiso_1.html"><img src="../../imagens/par_capa_tit.gif" border=0 height=74 width=268
+alt="Clique para ler poema original em italiano"></a><br>(original em italiano, apenas)</H1>
+<p>&nbsp;</p>
+<H2><img src="../../imagens/par_capa_dan.gif" height=54 width=230></H2>
+<h2>Adaptação em prosa (em construção).<br>
+Disponível (versão provisória): Cantos <a href="canto_1.html">I</a>, <a href="canto_2.html">II</a>, <a href="canto_3.html">III</a>, <a href="canto_4.html">IV</a>, <a href="canto_5.html">V</a> e <a href="canto_6.html">VI</a><br> (última atualização em 23/janeiro/2003)</p>
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</TD></TR></TABLE></BODY>
+</HTML>

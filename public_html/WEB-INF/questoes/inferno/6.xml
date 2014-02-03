@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>O que é Malebolge?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>O oitavo círculo do Inferno</alternativa>
+		<alternativa>O sétimo círculo do Inferno</alternativa>
+		<alternativa>Um conjunto de dez círculos onde se pune a fraude</alternativa>
+		<alternativa correta="true">As letras a e c estão corretas</alternativa>
+		<alternativa>As letras b e c estão corretas</alternativa>
+	</alternativas>
+	<resposta>
+	Malebolge é o nome do oitavo círculo do Inferno. Lá são punidas dez categorias diferentes de fraude, em dez subcírculos menores chamados de bólgias (Canto XVIII).
+	</resposta>
+</questao>

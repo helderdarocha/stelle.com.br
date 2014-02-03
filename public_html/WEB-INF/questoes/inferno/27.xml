@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Na Antenora Dante encontra o traidor Bocca degli Abati que inicialmente  recusa-se a dizer seu nome, mas, depois de delatado, vinga-se revelando os crimes de seus delatores. Por que Dante está tão irritado com Bocca?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Porque ele foi o responsável pelo seu exílio</alternativa>
+		<alternativa>Porque ele traiu os guibelinos na batalha de Campaldino, causando sua derrota</alternativa>
+		<alternativa correta="true">Porque ele traiu os guelfos na batalha de Montaperti, causando sua derrota</alternativa>
+		<alternativa>Porque ele traiu os guelfos brancos e aliou-se aos negros, que expulsaram Dante de Florença</alternativa>
+		<alternativa>As questões a e d estão corretas.</alternativa>
+	</alternativas>
+	<resposta>
+	Bocca traiu o exército guelfo na batalha de Montaperti, causando a derrota de Florença e a entrega do poder aos guibelinos.
+	</resposta>
+</questao>

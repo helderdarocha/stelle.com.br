@@ -1,0 +1,91 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>A Divina Comédia - Texto por Email</TITLE>
+	<script>
+	if (navigator.appName == "Microsoft Internet Explorer") {
+		document.write("<LINK REL=\"STYLESHEET\" HREF=\"cantos.css\">");
+	} else {
+		document.write("<style>body{background-color: rgb(100%,90%,70%)}</style>");
+	}
+	</script>
+	<style>
+	P.nota {text-align: left}
+	H1 {font-size: 20pt}
+	.button {font-size: 9pt; font-weight: bold; 
+	         font-family: tahoma, sans-serif; background: maroon; color: yellow;}
+	.reset {font-size: 9pt; font-family: tahoma, sans-serif; background: rgb(50%, 30%, 0%); color: white}
+	.text {font-family: tahoma, sans-serif; font-weight: bold; background: rgb(100%, 90%, 80%); color: maroon}
+	</style>
+	<script>
+	function getCookie(nome) {
+		ini = document.cookie.indexOf(nome);
+		if (ini == -1) return "";
+		eq =  document.cookie.indexOf("=", ini);
+		fim = document.cookie.indexOf(";", eq);
+		if (fim == -1) fim = document.cookie.length;
+		return unescape(document.cookie.substring(eq+1, fim));
+	}
+	romanos = new Array ("", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X",
+	                     "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX",
+						 "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX",
+						 "XXXI", "XXXII", "XXXIII", "XXXIV");
+    canto = new Object();
+	pagina = getCookie("nomearq").split("|");
+	canto.nome = pagina[0] + ": " + pagina[1] + " " + romanos[pagina[2]];
+	canto.num = pagina[2];
+	email = getCookie("email");
+	
+	function init() {
+	     document.forms[0].destinatario.value = email;
+		 document.forms[0].dir_txt.value = "/pt/" + pagina[0].toLowerCase() + "/txt/";
+		 if (pagina[1].toLowerCase() == "notas do canto") {
+		 	document.forms[0].notas.checked = true;
+			document.forms[0].texto.checked = false;
+		 } else if (pagina[1].toLowerCase() == "canto") {
+		    document.forms[0].notas.checked = true;
+			document.forms[0].texto.checked = true;
+		 }
+    }
+
+	function verifica(f) {
+	  f.sel.value = canto.num;
+      if (f.destinatario.value.length < 1) {          
+         alert("Digite seu e-mail!");
+         f.destinatario.focus();
+         f.destinatario.select();
+      } else if (f.destinatario.value.lastIndexOf("@") == -1) {
+         alert("Formato ilegal para E-mail");
+         f.destinatario.focus();
+         f.destinatario.select();
+      } else if (!f.texto.checked && !f.notas.checked) {
+         alert("Escolha o texto a ser enviado!");
+      } else {
+	     document.cookie="email=" + f.destinatario.value;
+	  	 f.submit();
+	  }
+	}
+	</script>
+</HEAD>
+
+<BODY onload="init()"><TABLE WIDTH=280><TR><TD>
+
+<h1>Enviar texto por E-mail</h1>
+<form action="/cgi-local/viaemail.pl" method="POST">
+<p class=nota>Para receber por correio eletrônico uma versão em formato texto do 
+<b><script>
+document.write(canto.nome);
+</script></b>, preencha os dados abaixo:</p>
+<p class=nota>Seu e-mail
+<input type="text" name="destinatario" class=text onchange="verifica(this.form)"></p>
+<p class=nota>Enviar <input type="checkbox" name="texto" checked>texto  
+<input type="checkbox" name="notas" checked>notas</p>
+<p class=nota><input type=button value="Enviar" onclick="verifica(this.form)" class=button>
+<input type=button value="Fechar esta Janela" onclick="self.close()" class=reset>
+<input type=hidden name="dir_txt" value="/pt/paraiso/txt/">
+<input type=hidden name="sel" value="1"></p>
+</form>
+</TD></TR></TABLE></BODY>
+</HTML>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>O que aconteceu com o carro depois que ele ficou coberto de plumas douradas?</enunciado>
+		<alternativas>
+			<alternativa>Ele se transformou em um dragão.</alternativa>
+			<alternativa correta="true">Ele se transformou em um monstro com sete chifres e dez cabeças.</alternativa>
+			<alternativa>Parte dele se transformou em uma prostituta e a outra se transformou em um gigante, depois, surgiu do mar um monstro de sete cabeças e dez chifres.</alternativa>
+			<alternativa>Centenas de cabeças começaram a brotar de todos os cantos.</alternativa>
+			<alternativa>Uma roda se transformou em uma prostituta, a outra deu origem a um gigante. O corpo se transformou em um monstro de sete cabeças e dez chifres.</alternativa>
+		</alternativas>
+	<resposta>
+	Depois de se cobrir de plumas, cabeças começaram a brotar dos quatro cantos do carro e das três pontas do timão. As do timão tinham dois chifres cada e as do corpo do carro tinham apenas um.
+	</resposta>
+</questao>

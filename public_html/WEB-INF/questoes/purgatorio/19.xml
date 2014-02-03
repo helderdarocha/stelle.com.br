@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Quando Dante e Virgílio estão prestes a deixar a cornija da avareza, todo o monte treme. Mais adiante, encontram Estácio que lhes explica a causa do tremor. O que disse Estácio?</enunciado>
+		<alternativas>
+			<alternativa>Que o tremor era causado pela ira de Deus.</alternativa>
+			<alternativa>Que provavelmente houve algum tremor na Terra que refletiu na montanha.</alternativa>
+			<alternativa correta="true">Que o tremor foi causado por um espírito que se levantou da cornija e decidiu subir ao céu.</alternativa>
+			<alternativa>Que o tremor foi causado porque uma nova alma acabou de entrar pela porta do purgatório.</alternativa>
+			<alternativa>Que o tremor ocorreu no inferno e apenas refletiu no purgatório.</alternativa>
+		</alternativas>
+	<resposta>
+	O tremor ocorreu porque um espírito (o próprio Estácio) se sentiu puro o suficiente para deixar sua penitência e subir ao céu. Segundo ele, sempre que um espírito se liberta, o monte treme.
+	</resposta>
+</questao>

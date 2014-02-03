@@ -1,0 +1,83 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>A Divina Comédia - Busca</TITLE>
+	<script><!--
+	if (parent.nav) {
+		parent.nav.location.href="navbar.jsp";
+	}
+	function getCookie(nome) {
+		ini = document.cookie.indexOf(nome);
+		if (ini == -1) return "";
+		eq =  document.cookie.indexOf("=", ini);
+		fim = document.cookie.indexOf(";", eq);
+		if (fim == -1) fim = document.cookie.length;
+		return unescape(document.cookie.substring(eq+1, fim));
+	}
+	//--></script>
+	<style>
+	.button {font-size: 9pt; font-weight: bold; font-family: tahoma, sans-serif; background: maroon; color: yellow}
+	.text {font-family: tahoma, sans-serif; font-weight: bold; background: rgb(100%, 90%, 80%); color: maroon}
+	select {font-family: tahoma, sans-serif; font-weight: bold; background: rgb(100%, 100%, 80%); color: black}
+	.inf {color: maroon}
+	.pur {color: green}
+	.par {color: navy}
+	</style>
+	
+<LINK REL="STYLESHEET" HREF="default.css">
+</HEAD>
+
+<BODY><TABLE WIDTH=450><TR><TD>
+<p class=minimenu> 
+      <table width="100%" border="0" cellspacing=0 cellpadding=0>
+        <tr> 
+          <td align="left"><a href="introducao.html">Introdução</a></td>
+          <td align="center"><a HREF="dante.html">Vida de Dante</a></td>
+		  <td align="center"><a href="../index.html" target="_top">Página Principal</a></td>
+		  <td align="right"><a href="comedia.html">Divina Com&eacute;dia</a></td>
+        </tr>
+      </table>
+      <hr></p>
+
+<H1>Busca por palavra-chave</H1>
+<form method=POST action="/cgi-local/search.pl">
+<p class=primeiro>Separe as palavras com espaços. O uso de acentos é opcional.
+Não use aspas, pontuação, artigos, preposições ou palavras com menos de quatro letras.
+A opção E-lógico retorna apenas as páginas que possuírem <i>todas</i> as palavras. A opção
+OU-lógico retorna todas as páginas que tiverem <i>pelo menos uma</i> das palavras.</p>
+<p class=lista>Procura por: 
+<select name=secoes>
+<option value="pt/inferno/:pt/purgatorio/:pt/paraiso/:pt/">Todo o site</option>
+<option value="pt/inferno/" class=inf>Inferno</option>
+<option value="pt/purgatorio/" class=pur>Purgatório</option>
+<option value="pt/paraiso/" class=par>Paraíso</option>
+</select><br>em
+<input type=checkbox name=cantos class=text value="canto_*.html" checked>Cantos 
+<input type=checkbox name=notas class=text  value="notas_*.html" checked>Notas 
+<input type=checkbox name=poema class=text  value="inferno_*.html:purgatorio_*.html:paraiso_*.html">Poema (italiano) 
+<input type=checkbox name=outros class=text  value="*.html">Outros textos</p>
+<p style="text-align: left; text-indent: 0px">Palavras-chave:<br>
+<input type=text class=text name="terms" size=40> 
+<input type=submit class=button value="Procurar"></p>
+<p class=primeiro><i>Opções da pesquisa</i></p>
+<p class=lista>
+<input type=radio name=boolean value=E checked> E-lógico (termo_1 <b>E</b> termo_2)<br>
+<input type=radio name=boolean value=OU> OU-lógico (termo_1 <b>OU</b> termo_2)
+</p>
+</form>
+      <p class=minimenu> 
+      <hr>
+      <table width="100%" border="0" cellspacing=0 cellpadding=0>
+        <tr> 
+          <td align="left"><a href="introducao.html">Introdução</a></td>
+          <td align="center"><a HREF="dante.html">Vida de Dante</a></td>
+		  <td align="center"><a href="../index.html" target="_top">Página Principal</a></td>
+          <td align="right"><a href="comedia.html">Divina Com&eacute;dia</a></td>
+        </tr>
+      </table>
+      <p></p>
+
+</TD></TR></TABLE></BODY>
+</HTML>

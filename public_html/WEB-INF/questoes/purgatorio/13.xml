@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>O que faz um anjo sempre que Dante deixa uma cornija? Marque uma.</enunciado>
+		<alternativas>
+			<alternativa>Profere uma bênção do sermão da montanha.</alternativa>
+			<alternativa>Fere Dante na testa com sua espada.</alternativa>
+			<alternativa>Remove uma das feridas da testa de Dante.</alternativa>
+			<alternativa>As alternativas a e b estão certas.</alternativa>
+			<alternativa correta="true">As alternativas a e c estão certas.</alternativa>
+		</alternativas>
+	<resposta>
+	O anjo da cornija sempre fala um trecho do sermão da montanha e remove a ferida da testa de Dante quando ele deixa a cornija.
+	</resposta>
+</questao>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Quem é que Dante chama de 'Mal da França'?</enunciado>
+		<alternativas>
+			<alternativa>O papa Clemente V</alternativa>
+			<alternativa correta="true">Felipe IV, o belo</alternativa>
+			<alternativa>Carlos de Anjou</alternativa>
+			<alternativa>Carlos de Valois</alternativa>
+			<alternativa>Felipe III, o ousado</alternativa>
+		</alternativas>
+	<resposta>
+	Felipe IV, o belo, rei da França.
+	</resposta>
+</questao>

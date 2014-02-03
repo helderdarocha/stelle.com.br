@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Há duas cidades no Inferno: a cidade do Limbo, onde estão vários filósofos e personagens que não conheceram o Cristianismo e a cidade de Dite, onde queimam os hereges que acreditavam em idéias que negavam o Cristianismo. Em qual das duas está o filósofo grego Epicuro?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa correta="true">Na cidade de Dite</alternativa>
+		<alternativa>Na cidade do Limbo</alternativa>
+	</alternativas>
+	<resposta>
+	Embora a maior parte dos filósofos esteja no Limbo, residindo na cidade (ou castelo) dos iluminados, Epicuro sofre em Dite pois defendeu uma doutrina na qual negava a existência da alma, heresia grave aos olhos da Igreja (Canto IX).
+	</resposta>
+</questao>

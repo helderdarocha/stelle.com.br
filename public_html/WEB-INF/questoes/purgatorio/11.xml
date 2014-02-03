@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Como eram representados os exemplos de orgulho e humildade (freio e látego do orgulho) que Dante conheceu na primeira cornija do purgatório?</enunciado>
+		<alternativas>
+			<alternativa>Na forma de visões.</alternativa>
+			<alternativa correta="true">Na forma de esculturas (imagens) na parede e no chão.</alternativa>
+			<alternativa>Na forma de vozes anônimas.</alternativa>
+			<alternativa>Na forma de sonhos.</alternativa>
+			<alternativa>Na forma de trechos da bíblia e da história recitados pelos penitentes.</alternativa>
+		</alternativas>
+	<resposta>
+	O látego (bons exemplos) do orgulho é representado como esculturas (imagens em relevo) nas paredes da cornija. O freio (maus exemplos) aparece em esculturas no chão (Canto X).
+	</resposta>
+</questao>

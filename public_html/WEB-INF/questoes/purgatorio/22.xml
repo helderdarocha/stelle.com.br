@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual dos seres abaixo não faz parte da procissão que Dante assistiu no paraíso terrestre?</enunciado>
+		<alternativas>
+			<alternativa>um grifo de penas douradas</alternativa>
+			<alternativa>um ancião portando uma espada</alternativa>
+			<alternativa>uma ninfa com três olhos na testa</alternativa>
+			<alternativa>uma criatura com seis asas, quatro rostos, coberta de olhos</alternativa>
+			<alternativa correta="true">um cavaleiro apocalíptico</alternativa>
+		</alternativas>
+	<resposta>
+	Todos os outros seres aparecem na procissão.
+	</resposta>
+</questao>

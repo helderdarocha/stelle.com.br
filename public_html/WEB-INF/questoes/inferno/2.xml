@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Em várias partes da Comédia, o autor Dante deixa pistas que permitem estimar o dia exato em que começou a viagem do personagem Dante. Que dia é este?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Domingo de Páscoa de 1300</alternativa>
+		<alternativa>Sexta-feira da Paixão de 1300</alternativa>
+		<alternativa correta="true">Quinta-feira Santa de 1300</alternativa>
+		<alternativa>Sexta-feira da Paixão de 1307</alternativa>
+		<alternativa>Domingo de Páscoa de 1307</alternativa>
+	</alternativas>
+	<resposta>
+	A viagem começa na Quinta-feira Santa de 1300. A explicação encontra-se nas notas explicativas do Canto I (cronologia). Também pode ser deduzida diretamente do poema. Dante estava no "meio do caminho de nossa vida" (Canto I), que significa que ele tinha metade dos 70 anos reservados ao homem (segundo as crenças da época). Como ele nasceu em 1265, o ano era 1300. Há outra evidência no Canto XXI, onde o demônio Malacoda afirma "De ontem, cinco horas mais que agora, já são 1266 anos que esta via foi destruída." Se Cristo, tendo nascido no ano 1, morreu com 33 anos (no ano 34), o ano é 1300. Cristo desceu ao Inferno na nona hora (3 horas da tarde) após o nascer do Sol do sábado. Se é sábado quando Dante encontra Malacoda, acompanhando os períodos citados por Dante e Virgílio nos cantos II, XI e XX conclui-se que a viagem começou na quinta.
+	</resposta>
+</questao>

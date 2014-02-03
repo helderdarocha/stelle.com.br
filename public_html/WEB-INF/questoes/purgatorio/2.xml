@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Quais almas são destinadas ao purgatório?</enunciado>
+		<alternativas>
+			<alternativa correta="true">Todas as almas que tenham pecado e se arrependido antes da morte.</alternativa>
+			<alternativa>Apenas as almas que tenham cometido pecados capitais e tenham se arrependido antes da morte.</alternativa>
+			<alternativa>Apenas as almas que tenham cometido pecados leves ou que tenham se arrependido dos mais graves.</alternativa>
+			<alternativa>Todas as almas que tenham pecado.</alternativa>
+			<alternativa>Apenas as almas que não cometeram pecados muito graves.</alternativa>
+		</alternativas>
+	<resposta>
+	Todas as almas pecaram. Mesmo tendo cometido os crimes mais terríveis, se a alma se arrependeu no último segundo antes da morte, será perdoada e encaminhada ao purgatório.
+	</resposta>
+</questao>

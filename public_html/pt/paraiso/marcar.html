@@ -1,0 +1,36 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>A Divina Comédia - Marcar Página</TITLE>
+	<LINK REL="STYLESHEET" HREF="cantos.css">
+	<style>
+    body {margin-left: 10px}
+    P {font-size: 13pt; margin-left: 30px}
+	H1 {font-size: 20pt; text-align: center}
+	.nota {text-align: justify}
+	form {text-align: center}
+	.reset {font-size: 9pt; font-family: tahoma, sans-serif; background: rgb(0%, 20%, 50%); color: white}
+	</style>
+    <script src="../../cantos.js"></script>
+	<script>
+	    pagina = getCookie("nomearq").split("|");
+	</script>
+</HEAD>
+
+<BODY onunload="opener.location.reload()"><TABLE WIDTH=280><TR><TD>
+
+<img src="bookmark.gif" width=59 height=100 alt="Página marcada" border="0" align=left>
+<h1>Página Marcada:<br>
+<script>
+document.write(pagina[0] + ": " + pagina[1] + " " + romanos[pagina[2]]);
+</script></h1>
+<p class=nota>Na próxima vez em que você entrar neste site
+clique no ícone acima (que aparecerá na página inicial) para
+voltar diretamente a esta página.</p>
+<form>
+<input type=button value="Fechar esta janela" onclick="self.close()" class=reset>
+</form>
+</TD></TR></TABLE></BODY>
+</HTML>

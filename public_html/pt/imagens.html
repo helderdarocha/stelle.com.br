@@ -1,0 +1,98 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>A Divina Comédia: Imagens</TITLE>
+	<script><!--
+	if (!parent.comedia) {
+		location.href="index_imagens.html";
+	}
+	if (parent.nav) {
+		parent.nav.location.href="navbar.jsp";
+	}
+	
+	function getCookies() {
+      cookies = document.cookie.split("; ");
+      for (i = 0; i < cookies.length; i++) {
+         cookies[i] = cookies[i].split("=");
+         cookies[i][0] = unescape(cookies[i][0]); // nome
+         cookies[i][1] = unescape(cookies[i][1]); // valor
+      }
+      return cookies;
+    }
+   
+    function getCookie(name) {
+      cookies = getCookies();
+      for (i = 0; i < cookies.length; i++) {
+         if(cookies[i][0] == name) {
+            return cookies[i][1];      // valor
+         }
+      }
+      return null;
+    } 
+	
+	img_atual = getCookie('menu_imagem');	
+	document.cookie="menu_imagem=null; expires=" + (new Date((new Date(1000)).getTime())).toGMTString();
+	if (img_atual != null && img_atual != "null") {
+		location.href = img_atual;
+	}
+	//--></script>
+	<style>
+	h2.sub1 {text-align: left; font-size: 22pt; color: black}
+	</style>
+	<LINK REL="STYLESHEET" HREF="default.css">
+</HEAD>
+
+<BODY><TABLE WIDTH=450>
+  <TR> 
+    <TD> 
+      <p class=minimenu> 
+      <table width="100%" border="0" cellspacing=0 cellpadding=0>
+        <tr> 
+          <td align="left"><a href="introducao.html">Introdução</a></td>
+          <td align="center"><a HREF="dante.html">Vida de Dante</a></td>
+		  <td align="center"><a href="../index.html" target="_top">Página Principal</a></td>
+		  <td align="right"><a href="comedia.html">Divina Com&eacute;dia</a></td>
+        </tr>
+      </table>
+      <hr></p>
+
+      <H1>I&nbsp;M&nbsp;A&nbsp;G&nbsp;E&nbsp;N&nbsp;S<BR>
+        da Divina Comédia</H1>
+      <h2 class="sub1">Retratos de Dante e Divina Comédia</h2>
+      <ul>
+        <li><A HREF="dore1.html">Retrato de Dante por Gustave Dor&eacute;</A></li>
+        <li><A HREF="michelangelo1.html">Retrato de Dante por Michelangelo</A></li>
+		<li><A HREF="domenico.html"><i>Dante e seus Poemas</i> por Domenico di Michelino</a> (800x600)</li>
+		<li><A HREF="anonimo1.html"><i>Dante no Exílio</i> de pintor anônimo</a> (800x600)</li>
+		<li><A HREF="signorelli_dante.html"><i>Retrato de Dante</i> por Luca Signorelli</a></li>
+		<li><A HREF="botticelli_dante.html"><i>Retrato de Dante</i> por Sandro Botticelli</a></li>
+      </ul>
+      <h2 class="sub1">Ilustrações da Com&eacute;dia</h2>
+      <ul>
+        <li><a href="inferno/imagens.html">Inferno</a> (34 imagens incluindo <a href="inferno/mapa6.html">visão em perspectiva</a>)</li>
+        <li><a href="purgatorio/imagens.html">Purgatório</a> (18 imagens  incluindo <a href="purgatorio/mapa1.html">visão em perspectiva</a>)</li>
+        <li>Para&iacute;so (em breve)</li>
+      </ul>
+      <h2 class="sub1">Artistas que ilustraram a Com&eacute;dia</h2>
+	  <p class=primeiro>Diversos artistas ilustraram a <i>Divina Comédia</i> de Dante, entre eles Salvador Dali e os três artistas abaixo, que assinam a maior parte das imagens deste <i>site</i>.</p>
+      <ul>
+        <li><A HREF="dore.html">Gustave Doré</A> (século XIX)</li>
+        <li><A HREF="botticelli.html">Sandro Botticelli</A> (século XV)</li>
+        <li><A HREF="blake.html">William Blake</A> (século XVIII)</li>
+      </ul>
+      <p class=minimenu> 
+      <hr>
+      <table width="100%" border="0" cellspacing=0 cellpadding=0>
+        <tr> 
+          <td align="left"><a href="introducao.html">Introdução</a></td>
+          <td align="center"><a HREF="dante.html">Vida de Dante</a></td>
+		  <td align="center"><a href="../index.html" target="_top">Página Principal</a></td>
+		  <td align="right"><a href="comedia.html">Divina Com&eacute;dia</a></td>
+        </tr>
+      </table>
+      <p></p>
+    </TD>
+  </TR></TABLE></BODY>
+</HTML>

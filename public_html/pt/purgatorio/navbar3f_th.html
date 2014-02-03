@@ -1,0 +1,116 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>Barra Nav Flutuante</TITLE>
+	<STYLE>
+	BODY {background-color: rgb(0%,20%,0%); color: rgb(90%,100%,0%);
+              background-image: url(../../imagens/pur_back_bar.jpg)}
+	BODY, P, TD {font-family: tahoma, sans-serif; font-size: 12px; color: rgb(90%,100%,0%);}
+	A:link {color: rgb(90%,100%,0%); font-weight: bold; text-decoration: none}
+	A:visited {color: rgb(50%,100%,0%); font-weight: bold; text-decoration: none}
+	P {text-align: center}
+	P.ref {line-height: 100%; margin-top: 7px; margin-bottom: 7px;
+	        padding: 1px; border-style: outset; border-width: 1px; border-color: green;
+			background-color: rgb(10%,25%,10%); width: 100%}
+	A.mainlink:visited {color: rgb(90%,100%,0%); text-decoration: none}
+	.marc {font-size: 11px; text-align: right; line-height: 100%; font-family: tahoma, sans-serif}
+	a:hover {color: rgb(100%,100%,70%);}
+	select, option {background: rgb(0%,20%,0%); color: rgb(90%,100%,0%);}
+	</STYLE>
+	<script>
+	if(navigator.appName != "Netscape") {
+		document.write("<STYLE>TABLE.ref TD {line-height: 100%; margin-top: 7px; margin-bottom: 7px;padding: 1px; border-style: outset; border-width: 1px; border-color: green;background-color: rgb(10%,25%,10%);}</STYLE>");
+	}
+	</script>
+	<script> <!--
+	var purhome;
+	carregadas = false;
+	function loadImages() {
+		purhome = new Image();
+		purhome.src = "../../imagens/purhome_b.gif";
+		purhome.apagada = document.images["purhome"].src;
+		purhome.acesa = purhome.src;
+		setTimeout("carregadas = true",1000);
+	}
+	function acende() {
+		if (carregadas) {
+			document.purhome.src = purhome.acesa;
+		}
+	}
+	function apaga() {
+		if (carregadas) {
+			document.purhome.src = purhome.apagada;
+		}
+	}
+
+	function getCookies() {
+      cookies = document.cookie.split("; ");
+      for (i = 0; i < cookies.length; i++) {
+         cookies[i] = cookies[i].split("=");
+         cookies[i][0] = unescape(cookies[i][0]); // nome
+         cookies[i][1] = unescape(cookies[i][1]); // valor
+      }
+      return cookies;
+    }
+   
+    function getCookie(name) {
+      cookies = getCookies();
+      for (i = 0; i < cookies.length; i++) {
+         if(cookies[i][0] == name) {
+            return cookies[i][1];      // valor
+         }
+      }
+      return null;
+    }
+	
+	function embutir() {
+		document.cookie='menu_imagem=' + escape(getCookie('imagem')); 
+		open('purgatorio.html','imagens');
+	}
+	//--></script>
+	<BASE TARGET="imagens">
+</HEAD>
+
+<BODY onload="loadImages()" onunload="embutir()">
+<table border=0><tr><td>
+<P style="text-align:center">
+<img src="../../imagens/homeicon.gif" width=120 height=41 alt="Clique em 'Menu embutido' para fechar esta janela" border="0"><br>
+<img src="../../imagens/purhome.gif" width=92 height=26 alt="Clique em 'Menu embutido' para fechar esta janela" border="0" name="purhome"></p>
+<p class=ref><a href="javascript:void(0)" onclick="embutir();setTimeout('self.close()',1000)">Menu embutido</a></P>
+
+<DIV style="text-align:center">
+</td><td>
+<table border="1" cellspacing=0 cellpadding=2 class=ref>
+<tr>
+<td><a href="mapa1.html"><img src="../../imagens/thumb/purgatorio_persp.gif" width="70" height="99" alt="O Purgatório de Dante por Helder da Rocha" border="0"></a></td>
+<td><a href="mapa2.html"><img src="../../imagens/thumb/purgclock.gif" width="100" height="100" alt="O Relógio de Dante (animação Flash)" border="0"></a></td>
+<td><A HREF="dore17.html"><img src="../../imagens/thumb/p_cato.gif" width=100 height=97 alt="Catão de Útica  por Doré" border="0"></A></td>
+<td><a href="dore33.html"><img src="../../imagens/thumb/p_barqueiro.gif" width="78" height="100" alt="O barqueiro por Doré" border="0"></a></td>
+<td><A HREF="dore18.html"><img src="../../imagens/thumb/p_lideres.gif" width=80 height=100 alt="Excomungados por Doré" border="0"></A></td>
+<td><A HREF="dore26.html"><img src="../../imagens/thumb/p_principes.gif" width="81" height="100" alt="Vale dos Príncipes por Doré" border="0"></A></td>
+<td><A HREF="dore19.html"><img src="../../imagens/thumb/p_sonhoaquila.gif" width=81 height=100 alt="Sonho da águia por Doré" border="0"></A></td>
+<td><a href="dore28.html"><img src="../../imagens/thumb/p_portao.gif" width="78" height="99" alt="Porta de São Pedro por Doré" border="0"></a></td>
+<td><A HREF="dore20.html"><img src="../../imagens/thumb/p_orgulho.gif" width=88 height=100 alt="Orgulhosos por Doré" border="0"></A></td>
+<td><A HREF="dore21.html"><img src="../../imagens/thumb/p_inveja.gif" width=75 height=100 alt="Invejosos por Doré" border="0"></A></td>
+<td><A HREF="dore22.html"><img src="../../imagens/thumb/p_ira.gif" width=85 height=100 alt="Iracundos por Doré" border="0"></A></td>
+<td><a href="dore27.html"><img src="../../imagens/thumb/p_preguica.gif" width="78" height="100" alt="Preguiçosos por Doré" border="0"></a></td>
+<td><A HREF="dore23.html"><img src="../../imagens/thumb/p_avareza.gif" width=79 height=100 alt="Avarentos por Doré" border="0"></A></td>
+<td><A HREF="dore24.html"><img src="../../imagens/thumb/p_gula.gif" width=83 height=100 alt="Gulosos por Doré" border="0"></A></td>
+<td><a href="dore32.html"><img src="../../imagens/thumb/p_luxuria.gif" width="80" height="100" alt="Luxuriosos por Doré" border="0"></a></td>
+<td><A HREF="dore25.html"><img src="../../imagens/thumb/p_paraiso.gif" width=80 height=100 alt="Paraíso Terrestre por Doré" border="0"></A></td>
+<td><a href="dore29.html"><img src="../../imagens/thumb/p_procissao.gif" width="82" height="100" alt="A procissão por Doré" border="0"></a></td>
+<td><a href="dore30.html"><img src="../../imagens/thumb/p_prostituta.gif" width="79" height="100" alt="O gigante e a prostituta por Doré" border="0"></a></td>
+<td><a href="dore31.html"><img src="../../imagens/thumb/p_eunoe.gif" width="81" height="100" alt="O rio Eunoé por Doré" border="0"></a></td>
+</tr>
+</table></td>
+
+<td valign=center style="font-size: 11px; text-align: center">Copyright &copy 1999<br>Helder da Rocha</td>
+
+</tr></table>
+
+</DIV>
+
+</BODY>
+</HTML>

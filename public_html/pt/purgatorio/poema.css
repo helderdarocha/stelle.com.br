@@ -1,0 +1,5 @@
+@import url(cantos.css);
+
+h1 {font-weight: normal; font-style: italic}
+td.num {font-size: 10pt; color: rgb(60%,40%,0%);}
+td.verso {font-size: 14pt; font-family: Garamond, serif}

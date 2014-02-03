@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual era a pena dos orgulhosos?</enunciado>
+		<alternativas>
+			<alternativa>A tortura por chuvas de brasas.</alternativa>
+			<alternativa>A humilhação de ter que ver sua própria alma refletida.</alternativa>
+			<alternativa>Viver com os olhos costurados, ter que implorar e usar roupas de mendigo.</alternativa>
+			<alternativa>Rolar pedras de um lado para outro.</alternativa>
+			<alternativa correta="true">Carregar o peso de seu orgulho nas costas.</alternativa>
+		</alternativas>
+	<resposta>
+	Os orgulhosos são condenados a carregar pesos de peso proporcional ao seu orgulho em vida.
+	</resposta>
+</questao>

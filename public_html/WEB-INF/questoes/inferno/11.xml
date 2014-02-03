@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>No círculo da Luxúria, Dante conversa com Francesca de Rímini, que conta como ela e seu amante Paolo foram parar no Inferno. Qual é o sofrimento imposto a Francesca e às outras almas luxuriosas?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Arderem eternamente no fogo da paixão</alternativa>
+		<alternativa correta="true">Serem agitadas eternamente pelo vento que nunca pára</alternativa>
+		<alternativa>Contemplarem o objeto de seu desejo mas nunca chegarem perto dele</alternativa>
+		<alternativa>Permanecerem submersas em um lago de sangue fervente</alternativa>
+		<alternativa>Serem continuamente violentadas por demônios</alternativa>
+	</alternativas>
+	<resposta>
+	Como suas paixões que fluíam como o vento, os luxuriosos agora são agitados por esse vento pela eternidade (Canto V).
+	</resposta>
+</questao>

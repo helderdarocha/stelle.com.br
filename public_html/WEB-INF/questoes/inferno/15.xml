@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Dante e Virgílio descem ao sétimo círculo por uma rampa de pedras formada por uma avalanche que derrubou parte do barranco íngreme que separa os dois círculos. Quando e por que caiu o barranco?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>O barranco caiu quando o Inferno inteiro tremeu por causa da queda de Lúcifer</alternativa>
+		<alternativa correta="true">O barranco caiu quando houve um grande terremoto que ocorreu quando Cristo desceu ao Inferno</alternativa>
+		<alternativa>Foi o anjo que pouco antes abriu as portas da cidade que derrubou o barranco, para que Dante e Virgílio pudesse prosseguir viagem.</alternativa>
+		<alternativa>O barranco caiu pouco depois da construção do Inferno, por causa da erosão causada pelo fluxo dos rios subterrâneos.</alternativa>
+		<alternativa>Não está clara a razão pela qual o barranco caiu. Na primeira viagem de Virgílio ao Inferno, o barranco já havia caído.</alternativa>
+	</alternativas>
+	<resposta>
+	O barranco caiu quando houve um grande terremoto que ocorreu quando Cristo desceu ao Inferno. O terremoto também causou outros estragos, como queda de pontes (Canto XXI). O barranco ainda não havia caído quando Virgílio esteve no Inferno (antes de Cristo).
+	</resposta>
+</questao>

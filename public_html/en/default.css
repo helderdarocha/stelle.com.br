@@ -1,0 +1,59 @@
+H1 {font-size: 28pt; color: maroon;
+	text-align: center;
+	font-style: italic; 
+    font-weight: normal;
+	font-family: Garamond, serif;}
+H2 {font-size: 18pt; 
+    font-style: italic; 
+    font-weight: normal;
+	text-align: center;
+    font-family: Garamond, serif;
+	}
+H3 {font-size: 16pt; font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+	font-family: Garamond, serif; }
+H4 {font-size: 14pt; font-weight: normal;
+	text-align: center;
+	font-family: Garamond, serif;}
+
+BODY {background-color: rgb(100%,90%,70%)}		
+
+P {font-size: 14pt; 
+   text-align: justify; 
+   text-indent: 1cm;
+   margin-top: 7pt; margin-bottom: 7pt; 
+   line-height: 1.5;
+   font-family: Garamond, serif;}
+P.menu {text-align: right}
+P.minimenu 	{text-align: center;
+		     text-indent: 0cm;
+			 font-size: 12pt;
+			 margin: 0px}
+P.ref {text-indent: 0cm;
+       color: navy;
+	   margin-top: 14pt; 
+	   text-align: left}
+P.fonte {font-size: 12pt;
+         text-indent: 0px;
+		 margin-top: 12pt;
+		 text-align: left}
+P.copy {font-size: 11pt; 
+        text-indent: 0px; 
+		line-height: 1.2}
+		 
+TD.legenda {font-size: 11pt; 
+            text-align: left;
+			font-family: Garamond, serif;}
+			
+LI, UL, OL {font-size: 14pt;  
+			line-height: 1.2;
+			font-family: Garamond, serif;}
+LI {margin-bottom: 6pt}
+
+DIV.figura {margin-top: 0.5cm; margin-bottom: 0.5cm}
+
+A:link 	   {color: rgb(60%,0%,0%); 
+		    text-decoration: none}
+A:visited  {color: rgb(50%,0%,0%); 
+			text-decoration: none}

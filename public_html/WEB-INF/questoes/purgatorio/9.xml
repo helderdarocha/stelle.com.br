@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Quantas chaves são necessárias para abrir a porta do purgatório?</enunciado>
+		<alternativas>
+			<alternativa>Nenhuma</alternativa>
+			<alternativa>Uma</alternativa>
+			<alternativa correta="true">Duas</alternativa>
+			<alternativa>Três</alternativa>
+			<alternativa>Sete</alternativa>
+		</alternativas>
+	<resposta>
+	São necessárias duas chaves para se abrir a porta do purgatório. Uma de ouro e outra de prata.
+	</resposta>
+</questao>

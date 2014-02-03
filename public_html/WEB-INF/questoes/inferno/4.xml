@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Há um círculo no Inferno de Dante onde não existe punição ou sofrimento. Qual é este círculo?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa correta="true">O primeiro círculo</alternativa>
+		<alternativa>O ante-inferno ou vestíbulo</alternativa>
+		<alternativa>O último</alternativa>
+		<alternativa>O círculo que contém a cidade de Dite</alternativa>
+		<alternativa>O círculo onde reside Lúcifer.</alternativa>
+	</alternativas>
+	<resposta>
+	O primeiro círculo é onde fica o Limbo (Canto IV) e as almas que não pecaram, mas não aceitaram o Cristianismo por não terem tido a oportunidade de conhecê-lo. Lá ninguém sofre mas não se tem esperanças de ver o céu. O vestíbulo (ou ante-inferno), embora não esteja dentro do Inferno propriamente dito, é uma área de sofrimento. As almas sofrem por não serem aceitas nem pelo céu nem pelo Inferno, e são mordidas por vermes e vespas (Canto III). O último círculo é onde reside Lúcifer e também onde o sofrimento é o maior de todos. Na cidade de Dite as almas sofrem no fogo eterno.
+	</resposta>
+</questao>

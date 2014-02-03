@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Na cidade de Dite, situada no sexto círculo, Dante encontra entre os hereges Farinata, um guibelino que viveu na geração anterior à sua. Farinata liderou a batalha de Montaperti, que causou a morte de mais de 10 mil florentinos em 1260. Farinata faz uma profecia. O que ela prevê?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa correta="true">O exílio de Dante</alternativa>
+		<alternativa>A tomada do poder em Florença pelos guibelinos</alternativa>
+		<alternativa>A tomada do poder em Florença pelos guelfos negros</alternativa>
+		<alternativa>A excomunhão de Dante pelo papa Bonifácio</alternativa>
+		<alternativa>A expulsão, em menos de 4 anos, de todos os partidários de Dante de Florença.</alternativa>
+	</alternativas>
+	<resposta>
+	Farinata prevê o exílio de Dante, em menos de 50 luas (4 anos) que ocorrerá após (c) A tomada do poder em Florença pelos guelfos negros prevista no Canto VI por Ciacco.
+	</resposta>
+</questao>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Na fronteira entre a Antenora e a Ptoloméia, Dante encontra o espírito do Conde Ugolino. O que Ugolino está fazendo?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Está tentando quebrar o gelo para escapar</alternativa>
+		<alternativa>Está arrancando os cabelos do seu vizinho, o bispo Ruggieri</alternativa>
+		<alternativa>Está tentando impedir que o bispo Ruggieri o morda</alternativa>
+		<alternativa correta="true">Está comendo o bispo Ruggieri</alternativa>
+		<alternativa>Está gritando e xingando o bispo Ruggieri.</alternativa>
+	</alternativas>
+	<resposta>
+	Ugolino, que foi condenado a morrer de fome, agora se vinga do traidor que o prendeu, arrancando o "couro" do seu pescoço.
+	</resposta>
+</questao>

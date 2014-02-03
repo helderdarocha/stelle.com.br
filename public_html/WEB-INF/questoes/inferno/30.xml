@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>No início da noite de sábado, Dante e Virgílio escapam do Inferno pelas costas de Lúcifer, e descem o túnel para emergir do outro lado. Algum tempo depois, já na metade do caminho os dois param, e Virgílio diz a Dante: "Anda que o caminho é longo, pois o dia já amanhece!" A que dia ele se refere?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Ao domingo de Páscoa</alternativa>
+		<alternativa correta="true">Ao sábado de Aleluia (que precede a Páscoa)</alternativa>
+		<alternativa>À segunda-feira que segue a Páscoa</alternativa>
+		<alternativa>À terça-feira que segue a Páscoa</alternativa>
+		<alternativa>À quarta-feira, pois passaram três dias e noites atravessando a Terra.</alternativa>
+	</alternativas>
+	<resposta>
+	O dia é sábado de manhã. Dante e Virgílio ganharam 12 horas porque atravessaram o centro da Terra. Enquanto de um lado anoitece, do outro amanhece (Canto XXXIV).
+	</resposta>
+</questao>

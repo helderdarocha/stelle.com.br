@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Por que Dante e Virgílio preferiram seguir escoltados por 10 demônios sobre a beira da sexta vala do Malebolge em vez de simplesmente atravessar a ponte que leva à vala seguinte, como haviam feito nas outras valas?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Para que Dante pudesse ter uma melhor noção das punições daquela vala do Inferno.</alternativa>
+		<alternativa>Para que Dante pudesse entrevistar mais espíritos condenados</alternativa>
+		<alternativa>Porque eles foram ameaçados pelos diabos e impedidos de atravessar a ponte.</alternativa>
+		<alternativa correta="true">Porque a ponte sobre a sexta vala havia caído e os demônios prometeram mostrar um caminho alternativo</alternativa>
+		<alternativa>Porque os gases quentes que saiam da vala impediam a travessia e os demônios sabiam de um caminho onde se podia fugir de tais gases.</alternativa>
+	</alternativas>
+	<resposta>
+	Porque a ponte sobre a sexta vala havia caído e os demônios prometeram mostrar um caminho alternativo. Dante e Virgílio não atravessaram a ponte simplesmente porque ela não existia. Dante hesitou em ir com os demônios, que diziam saber o caminho até outra ponte, mas acabou indo quando Virgílio insistiu.
+	</resposta>
+</questao>

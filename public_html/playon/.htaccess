@@ -1,0 +1,7 @@
+AuthUserFile /home/stelle/.htpasswd
+AuthGroupFile /dev/null
+AuthType Basic
+AuthName "This site contains information about Play-Off/06 participants. To enter you must use the user and password sent to you via e-mail. Any problems contact me: helder.darocha at gmail.com"
+<Limit GET>
+require user playon
+</Limit>

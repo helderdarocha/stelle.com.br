@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Quais os dois rios que atravessam o paraíso terrestre?</enunciado>
+		<alternativas>
+			<alternativa>o Tigre e o Eufrates.</alternativa>
+			<alternativa>o Letes e o Eufrates.</alternativa>
+			<alternativa>o Letes e o Aqueronte.</alternativa>
+			<alternativa>o Jordão e o Letes.</alternativa>
+			<alternativa correta="true">o Eunoé e o Letes.</alternativa>
+		</alternativas>
+	<resposta>
+	Os dois rios que banham o paraíso terrestre são o Letes e o Eunoé.
+	</resposta>
+</questao>

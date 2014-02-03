@@ -1,0 +1,17 @@
+BODY {background-color: rgb(20%,0%,0%); color: rgb(100%,90%,0%);
+		  background-image: url(../../../imagens/inf_back_bar.jpg)}
+BODY, P, TD {font-family: tahoma, sans-serif; font-size: 12px; color: rgb(100%,90%,0%);}
+A:link {color: rgb(100%,90%,0%); font-weight: bold; text-decoration: none}
+A:visited {color: orange; font-weight: bold; text-decoration: none}
+P {text-align: center;}
+P.ref {line-height: 100%; margin-top: 7px; margin-bottom: 7px;
+		padding: 1px; border-style: outset; border-width: 1px; border-color: brown;
+		background-color: rgb(25%,10%,10%); width: 100%;}
+A.mainlink:visited {color: rgb(100%,90%,0%); text-decoration: none}
+.marc {font-size: 11px; text-align: right; line-height: 100%; font-family: tahoma, sans-serif}
+a:hover {color: rgb(100%,100%,0%);}
+td.resposta {text-align: center; font-weight: bold}
+input {background: rgb(60%,40%,20%);
+	  font: bold 10pt sans-serif;
+	  color: white;}
+.ans {line-height: 150%}

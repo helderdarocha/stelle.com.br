@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Beatriz faz duas revelações sobre o passado e o futuro da igreja usando linguagem metafórica baseada em imagens fantásticas. Qual o símbolo que ela usou para representar a Igreja? </enunciado>
+		<alternativas>
+			<alternativa>o diabo</alternativa>
+			<alternativa>a besta do apocalipse</alternativa>
+			<alternativa>o carro</alternativa>
+			<alternativa correta="true">alternativas (b) e (c)</alternativa>
+			<alternativa>todas as alternativas</alternativa>
+		</alternativas>
+	<resposta>
+	Beatriz deixa claro em seus comentários que o carro representa a Igreja. Mais adiante, o carro se transforma em um monstro semelhante ao descrito em Apocalipse 13:1, representando a igreja corrompida.
+	</resposta>
+</questao>

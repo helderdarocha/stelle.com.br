@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>A Divina Comédia: Purgatório - Testes</title>
+    <script type="text/javascript" language="JavaScript" 
+            src="/pt/inferno/teste/quest.js"></script>
+    <link rel="stylesheet" type="text/css" href="/pt/purgatorio/cantos.css">
+</head>
+
+<body>
+<body><TABLE WIDTH=450><TR><TD>
+<P class=minimenu><table width=100% cellspacing=0 cellpadding=0 border=0>
+<tr><td align=right><A HREF="/pt/purgatorio/index.html">Purgatório (página principal)</A></td></tr></table><hr><p></P>
+
+<h1>Resultados do seu teste</h1>
+<p>
+<script>
+notatemp = getCookie("notatemp"); 
+grptmp = getCookie("grptmp"); 
+if (notatemp == 0) {
+    document.write("Você não acertou <strong>nenhuma questão</strong>! Leia a história e depois volte para fazer o teste novamente! Se quiser, volte para a <a href='/pt/purgatorio/teste/index.jsp#t"+grptmp+"'>página inicial</a> para ver as respostas.");
+} else if (notatemp == 1) {
+    document.write("Você só acertou <strong>uma questão</strong> de um total de 10! Leia a história e depois volte para fazer o teste novamente! Se quiser, volte para a <a href='/pt/purgatorio/teste/index.jsp#t"+grptmp+"'>página inicial</a> para ver as respostas."); 
+} else if (notatemp == 10) {
+    document.write("Parabéns! Você acertou <strong>todas as 10 questões</strong>! Foi fácil, não? Se quiser, volte para a <a href='/pt/purgatorio/teste/index.jsp#t"+grptmp+"'>página inicial</a> para conferir suas respostas e ler os comentários sobre as questões."); 
+} else {
+    document.write("Você acertou <strong>"+ notatemp +" questões</strong> de um total de 10! Se quiser fazer o teste outra vez, aperte o botão 'Limpar' na página inicial. Você pode conferir o que você errou ou acertou na <a href='/pt/purgatorio/teste/index.jsp#t"+grptmp+"'>página inicial</a> e ler comentários sobre cada questão."); 
+}
+</script>
+<div align=center>
+<p>&nbsp;</p>
+<table border=1 cellspacing=0 width=50% height=50 bgcolor=#cccccc><tr><td align=center><a href="/pt/purgatorio/teste/index.jsp" onclick="this.hash='t'+grptmp"><strong>Ver resultados<br>(página inicial)</strong></a></td></tr></table></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<P class=minimenu><hr><table width=100% cellspacing=0 cellpadding=0 border=0>
+<tr><td align=left><A HREF="/pt/purgatorio/index.html">Purgatório (página principal)</A></td></tr></table><p></P>
+</TD></TR></TABLE>
+</body>
+</html>

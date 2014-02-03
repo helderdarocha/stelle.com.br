@@ -1,0 +1,53 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>A Divina Comédia - Texto por Email</TITLE>
+	<script>
+	if (navigator.appName == "Microsoft Internet Explorer") {
+		document.write("<LINK REL=\"STYLESHEET\" HREF=\"cantos.css\">");
+	} else {
+		document.write("<style>body{background-color: rgb(95%,100%,90%)}</style>");
+	}
+	</script>
+    <script src="../../cantos.js"></script>
+    <script>
+        canto = new Object();
+	    pagina = getCookie("nomearq").split("|");
+	    canto.nome = pagina[0] + ": " + pagina[1] + " " + romanos[pagina[2]];
+	    canto.num = pagina[2];
+	    email = getCookie("email");
+    </script>
+	<style>
+    body {background-image: url(); background-color: rgb(95%,100%,90%); margin-left: 10px}
+	P.nota {text-align: left; font-size: 13pt}
+	H1 {font-size: 20pt}
+	.button {font-size: 9pt; font-weight: bold; 
+	         font-family: tahoma, sans-serif; background: darkgreen; color: yellow;}
+	.reset {font-size: 9pt; font-family: tahoma, sans-serif; background: rgb(30%, 50%, 0%); color: white}
+	.text {font-family: tahoma, sans-serif; font-weight: bold; background: rgb(90%, 100%, 80%); color: darkgreen}
+	</style>
+</HEAD>
+
+<BODY onload="init(document.forms[0], pagina[0], pagina[1], pagina[2])"><TABLE WIDTH=280><TR><TD>
+
+<h1>Enviar texto por E-mail</h1>
+<form action="/cgi-local/viaemail.pl" method="POST">
+<p class=nota>Para receber por correio eletrônico uma versão em formato texto do 
+<b><script>
+document.write(canto.nome);
+</script></b>, preencha os dados abaixo:</p>
+<p class=nota>Seu e-mail
+<input type="text" name="destinatario" class=text onchange="verifica(this.form, canto.num)"></p>
+<p class=nota>Enviar <input type="checkbox" name="texto" checked value="texto">texto  
+<input type="checkbox" name="notas" checked value="notas">notas</p>
+<p class=nota><input type=button value="Enviar" onclick="verifica(this.form, canto.num)" class=button>
+<input type=button value="Fechar esta Janela" onclick="self.close()" class=reset>
+<input type=hidden name="dir_txt" value="/pt/purgatorio/txt/">
+<input type=hidden name="sel" value="1">
+<input type=hidden name="livro" value="Purgatório">
+</p>
+</form>
+</TD></TR></TABLE></BODY>
+</HTML>

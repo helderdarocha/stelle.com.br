@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual a punição aplicada aos aduladores no Inferno de Dante?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Serem açoitados por demônios</alternativa>
+		<alternativa correta="true">Serem imersos nas suas próprias fezes</alternativa>
+		<alternativa>Sofrerem de doenças degenerativas como lepra e hidropisia</alternativa>
+		<alternativa>Sofrerem submersos no piche negro e fervente</alternativa>
+		<alternativa>Serem obrigados a caminhar com roupas pesadas como chumbo</alternativa>
+	</alternativas>
+	<resposta>
+	Os aduladores ficam imersos nas suas próprias fezes, que respiram e engolem.
+	</resposta>
+</questao>

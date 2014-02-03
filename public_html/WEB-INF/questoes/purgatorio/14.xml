@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Quais os penitentes do purgatório que não podem enxergar a luz do sol porque seus olhos foram costurados com fios de arame?</enunciado>
+		<alternativas>
+			<alternativa correta="true">os invejosos</alternativa>
+			<alternativa>os luxuriosos</alternativa>
+			<alternativa>os orgulhosos</alternativa>
+			<alternativa>os avarentos</alternativa>
+			<alternativa>os iracundos</alternativa>
+		</alternativas>
+	<resposta>
+	No purgatório, aqueles que não suportavam ver a felicidade alheia, têm seus olhos costurados para que não possam ver sequer a luz do Sol.
+	</resposta>
+</questao>

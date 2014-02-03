@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Além de serem pai e filho, que outra semelhança liga Buonconte, encontrado no purgatório, a Guido da Montefeltro, que Dante encontrou no inferno?</enunciado>
+		<alternativas>
+			<alternativa>Ambos morreram em batalha e tiveram seus corpos arrastados pelo rio.</alternativa>
+			<alternativa>Ambos foram frades franciscanos e depois militares.</alternativa>
+			<alternativa>Ambos foram militares e depois frades franciscanos.</alternativa>
+			<alternativa correta="true">Ambos tiveram suas almas disputadas por um habitante do céu e um habitante do inferno.</alternativa>
+			<alternativa>Ambos foram excomungados pelo papa Bonifácio VIII e depois perdoados.</alternativa>
+		</alternativas>
+	<resposta>
+	Na sua morte, São Francisco desceu à terra para buscar a alma de Guido da Montefeltro, que era frade franciscano, mas chegou também um demônio que reivindicou o espírito, argumentando que ele havia se arrependido, mas depois voltado a pecar. O demônio ganhou a discussão e Guido foi para o inferno. Já Buonconte (Canto V), cuja morte era ansiosamente esperada por um demônio, se arrependeu no último momento. De novo, anjo e demônio disputaram a alma do soldado, mas desta vez o anjo acabou ganhando, restando ao demônio levar seu corpo para longe.
+	</resposta>
+</questao>

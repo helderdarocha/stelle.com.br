@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Chegando-se à ilha do purgatório, </enunciado>
+		<alternativas>
+			<alternativa correta="true">tem-se a garantia de um lugar no paraíso.</alternativa>
+			<alternativa>a alma terá que passar por um período de purificação que irá determinar se poderá ou não entrar no paraíso, mas jamais irá para o inferno.</alternativa>
+			<alternativa>existe ainda a possibilidade da alma ir para o inferno, caso não se prove digna de subir ao céu.</alternativa>
+			<alternativa>a alma terá que esforçar-se para ter acesso ao processo de purificação, conduzido no interior do purgatório.</alternativa>
+			<alternativa>a alma terá que escolher entre subir a montanha ou descer o túnel que leva ao inferno.</alternativa>
+		</alternativas>
+	<resposta>
+	O purgatório é a porta do paraíso. Todas as almas que lá chegarem irão, algum dia, para o céu. O purgatório é um mundo de transição e não é eterno como o inferno ou o paraíso. Não se pode permanecer nele para sempre. Como a alma desencarnada não tem mais livre-arbítrio, não pode mais pecar e escolher o inferno.
+	</resposta>
+</questao>

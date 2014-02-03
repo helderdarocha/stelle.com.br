@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Na cornija da preguiça, Dante sonhou com...</enunciado>
+		<alternativas>
+			<alternativa>Beatriz</alternativa>
+			<alternativa>o paraíso terrestre</alternativa>
+			<alternativa>uma águia</alternativa>
+			<alternativa correta="true">uma sereia</alternativa>
+			<alternativa>um anjo</alternativa>
+		</alternativas>
+	<resposta>
+	Dante sonhou com uma sereia, que representa os pecados das três últimas cornijas.
+	</resposta>
+</questao>

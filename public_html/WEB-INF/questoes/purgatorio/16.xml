@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Dante perguntou a Marco Lombardo a causa das maldades do mundo. O que ele respondeu?</enunciado>
+		<alternativas>
+			<alternativa>Ele fez uma profecia funesta sobre o futuro político de Dante.</alternativa>
+			<alternativa>Ele explicou que todas essas coisas há muito tempo eram previstas pelos profetas e que a decadência é inevitável.</alternativa>
+			<alternativa>Ele respondeu que não sabia.</alternativa>
+			<alternativa correta="true">Ele explicou que os astros não são responsáveis pelos males do mundo e que cabe aos humanos evitar o mal.</alternativa>
+			<alternativa>Ele previu a invasão de Florença pelas forças do papa.</alternativa>
+		</alternativas>
+	<resposta>
+	Marco explicou que o homem tem livre-arbítrio e, por essa razão, tem o poder de escolher o bem ou o mal, sendo assim responsável pelo estado em que se encontra a humanidade.
+	</resposta>
+</questao>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>No Canto 14 Virgílio conta a alegoria do Velho de Creta, que explica a origem dos quatro rios que correm no Inferno. Entre os cinco rios abaixo que são encontrados por Dante em sua jornada, qual deles não aparece entre os círculos do Inferno?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Aqueronte</alternativa>
+		<alternativa>Cócito</alternativa>
+		<alternativa>Estige</alternativa>
+		<alternativa correta="true">Letes</alternativa>
+		<alternativa>Flegetonte</alternativa>
+	</alternativas>
+	<resposta>
+	O rio Letes tem sua fonte no Paraíso Terrestre (Purgatório, Canto XXX). Dante o encontra, na forma de um riacho, quando está deixando o Inferno.
+	</resposta>
+</questao>

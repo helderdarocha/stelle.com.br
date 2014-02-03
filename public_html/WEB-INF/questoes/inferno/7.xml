@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual dos monstros mitológicos abaixo não aparece no Inferno de Dante?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>A Medusa</alternativa>
+		<alternativa>O Cérbero</alternativa>
+		<alternativa>O Minotauro de Creta</alternativa>
+		<alternativa correta="true">A Sereia</alternativa>
+		<alternativa>O Centauro</alternativa>
+	</alternativas>
+	<resposta>
+	Todos os outros monstros citados aparecem no Inferno de Dante com exceção da Sereia, que só aparece num sonho de Dante quando ele já está no Purgatório.
+    </resposta>
+</questao>
+
+
+
+
+
+
+

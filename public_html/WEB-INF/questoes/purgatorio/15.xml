@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual é o estado das almas que se purgam do pecado da ira?</enunciado>
+		<alternativas>
+			<alternativa correta="true">São sufocados pela fumaça que cobre toda a cornija.</alternativa>
+			<alternativa>São rasgados por pedras cortantes.</alternativa>
+			<alternativa>São amarrados ao chão e não podem se mover.</alternativa>
+			<alternativa>São imersos na lama onde não podem respirar.</alternativa>
+			<alternativa>São obrigados a ficar em silêncio e suportar vozes que os irritam.</alternativa>
+		</alternativas>
+	<resposta>
+	Os iracundos são sufocados pela fumaça.
+	</resposta>
+</questao>

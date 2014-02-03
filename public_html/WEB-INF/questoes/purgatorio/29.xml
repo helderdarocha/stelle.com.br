@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Dante é levado à fonte de dois rios, um dos quais é o Letes. Ao beber a água do outro rio, o que ocorre com Dante?</enunciado>
+		<alternativas>
+			<alternativa correta="true">Ele se lembra de seus pecados.</alternativa>
+			<alternativa>Ele se esquece de sua vida na Terra.</alternativa>
+			<alternativa>Ele se transforma em espírito para poder subir ao céu.</alternativa>
+			<alternativa>Ele se esquece de todos os seus pecados.</alternativa>
+			<alternativa>Ele se lembra de sua vida na Terra.</alternativa>
+		</alternativas>
+	<resposta>
+	Dante se lembra de seus pecados. Ele não conseguia lembrar de ter pecado desde que saiu do rio Letes. Mas agora ele não sente culpa. Ele apenas se lembra do que fez de errado no passado como coisas passadas, pois já foi perdoado.
+	</resposta>
+</questao>

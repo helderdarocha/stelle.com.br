@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual a cor dos olhos de Beatriz?</enunciado>
+		<alternativas>
+			<alternativa>Azul celeste</alternativa>
+			<alternativa>Castanhos claros</alternativa>
+			<alternativa correta="true">Verde esmeralda</alternativa>
+			<alternativa>Negros</alternativa>
+			<alternativa>Claros</alternativa>
+		</alternativas>
+	<resposta>
+	Dante nos revela, no Canto XXXI, que os olhos de Beatriz são como duas esmeraldas.
+	</resposta>
+</questao>

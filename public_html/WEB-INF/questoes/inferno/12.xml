@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>No círculo da Gula, Dante encontra um conterrâneo (Ciacco) que faz uma funesta profecia. O que prevê esse espírito?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa correta="true">Que haverá uma disputa entre os guelfos de Florença que dividirá a cidade.</alternativa>
+		<alternativa>Que o papa Bonifácio irá condenar Dante ao exílio</alternativa>
+		<alternativa>Que o partido dos brancos dizimará o partido dos negros com a ajuda do papa.</alternativa>
+		<alternativa>Que os guelfos e guibelinos iniciarão uma luta pelo poder na cidade.</alternativa>
+		<alternativa>Que os guibelinos aliados ao papa, com sua ajuda, tomarão o poder em Florença.</alternativa>
+	</alternativas>
+	<resposta>
+	Ciacco prevê a tomada do poder pelos guelfos negros, ajudados pelo papa.
+	</resposta>
+</questao>

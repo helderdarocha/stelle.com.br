@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>No início de sua viagem, na Selva Escura, o personagem Dante é impedido de subir a montanha por três feras. Que feras são essas?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Um lobo, uma leoa e um leopardo (onça ou pantera)</alternativa>
+		<alternativa>Um leão, uma serpente e um cão de três cabeças</alternativa>
+		<alternativa>Um tigre, um leão e um lobo</alternativa>
+		<alternativa correta="true">Uma loba, um leão e um leopardo (ou onça ou pantera)</alternativa>
+		<alternativa>Um leão, um cão de três cabeças e uma loba.</alternativa>
+	</alternativas>
+	<resposta>
+	Dante é recepcionado primeiro por um leopardo (onça ou pantera em algumas traduções), depois por um leão e por último por uma loba, "a pior de todas", que o faz desistir de subir o monte (Veja <a href="../canto_1.html">Canto I</a> e notas).
+	</resposta>
+</questao>

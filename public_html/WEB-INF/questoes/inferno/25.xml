@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Na vala onde são punidos os maus conselheiros, Dante encontra Ulisses, que narra a sua última viagem, onde naufragou com todos os seus tripulantes. Onde teria chegado Ulisses, caso não tivesse naufragado?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Na América</alternativa>
+		<alternativa>Na África</alternativa>
+		<alternativa>Na China</alternativa>
+		<alternativa correta="true">Na montanha do Purgatório</alternativa>
+		<alternativa>Na ilha de Creta</alternativa>
+	</alternativas>
+	<resposta>
+	Ulisses já tinha avistado a montanha do Purgatório quando uma violenta tempestade afundou o seu barco.
+	</resposta>
+</questao>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Para Virgílio, o amor é a causa de todo o bem e de todo o mal. Para ele, qual o tipo de amor que causa a inveja?</enunciado>
+		<alternativas>
+			<alternativa correta="true">Amor pervertido (o mal) voltado contra o próximo.</alternativa>
+			<alternativa>Amor insuficiente por Deus.</alternativa>
+			<alternativa>Amor excessivo pelos bens materiais.</alternativa>
+			<alternativa>Amor excessivo pelo poder.</alternativa>
+			<alternativa>Amor excessivo pelos bens dos outros.</alternativa>
+		</alternativas>
+	<resposta>
+	Virgílio explica, no Canto XVII, que a inveja, orgulho e ira são pecados resultantes do amor pervertido, que deseja o mal a outras pessoas.
+	</resposta>
+</questao>

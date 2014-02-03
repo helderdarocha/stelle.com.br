@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>O que acontece com as almas no purgatório quando anoitece?</enunciado>
+		<alternativas>
+			<alternativa>Elas não podem mais sair do lugar onde estão.</alternativa>
+			<alternativa>Elas dormem.</alternativa>
+			<alternativa>Elas começam a orar e só param quando o dia amanhece.</alternativa>
+			<alternativa>Elas podem circular pela montanha mas não podem subir nem descer.</alternativa>
+			<alternativa correta="true">Elas podem circular pela montanha mas não podem subir.</alternativa>
+		</alternativas>
+	<resposta>
+	A lei da montanha impede que as almas progridam (ou subam) a montanha. Podem circular livremente ou descer mas não subir, explica Sordello (Canto VII).
+	</resposta>
+</questao>

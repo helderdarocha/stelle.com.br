@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual é o número daquele que virá matar o gigante e a prostituta?</enunciado>
+		<alternativas>
+			<alternativa>seiscentos e sessenta e seis</alternativa>
+			<alternativa correta="true">quinhentos e dez e cinco</alternativa>
+			<alternativa>setecentos e setenta e sete</alternativa>
+			<alternativa>quinhentos e cinqüenta e cinco</alternativa>
+			<alternativa>setecentos e dez e sete</alternativa>
+		</alternativas>
+	<resposta>
+	Beatriz revela a Dante que o número do 'lebreiro', daquele que virá salvar a Itália é quinhentos, dez e cinco (DXV). Ela não explica o significado deste número.
+	</resposta>
+</questao>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Onde ficam os que deram maior importância ao status social e ao dinheiro, colocando-o acima do trabalho humano (a arte), da natureza e de Deus?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Entre os avarentos no quarto círculo</alternativa>
+		<alternativa correta="true">Entre os violentos no sétimo círculo</alternativa>
+		<alternativa>Entre os fraudulentos no oitavo círculo</alternativa>
+		<alternativa>Entre os traidores no nono círculo</alternativa>
+		<alternativa>Entre os simoníacos no oitavo círculo</alternativa>
+	</alternativas>
+	<resposta>
+	Dante considera as pessoas apegadas ao dinheiro e coisas materiais como usurários (que cobram juros ou usura), porque desprezam o trabalho dos homens, a natureza e Deus, que criou a natureza de onde saiu o homem. Tal esprezo é uma violência contra Deus e é punida no estéril deserto incandescente onde chove brasas dia e noite.
+	</resposta>
+</questao>

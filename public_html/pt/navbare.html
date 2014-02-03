@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>Barra Nav Figuras</TITLE>
+	<STYLE>
+	BODY {background-color: rgb(0%,0%,0%); color: rgb(90%,80%,0%);}
+	BODY, P, TD {font-family: tahoma, sans-serif; font-size: 13px; color: rgb(90%,80%,0%);}
+	A:link {color: rgb(90%,80%,0%); font-weight: bold; text-decoration: none}
+	A:visited {color: rgb(60%,50%,0%); font-weight: bold; text-decoration: none}
+	P {text-align: center}
+	P.ref {line-height: 100%; margin-top: 7px; margin-bottom: 7px;
+	        padding: 1px; border-style: outset; border-width: 1px; border-color: gray;
+			background-color: rgb(10%,10%,10%); width: 100%}
+	A.mainlink:visited {color: rgb(90%,80%,0%); text-decoration: none}
+	.marc {font-size: 11px; text-align: right; line-height: 100%; font-family: tahoma, sans-serif}
+	a:hover {color: rgb(100%,90%,0%);}
+	</STYLE>
+	<script>
+	if(navigator.appName != "Netscape") {
+		document.write("<STYLE>TABLE.ref TD {line-height: 100%; margin-top: 7px; margin-bottom: 7px;padding: 1px; border-style: outset; border-width: 1px; border-color: gray;background-color: rgb(10%,10%,10%);}</STYLE>");
+	}
+	</script>
+	<script> <!--
+	if (document.cookie) {
+	    str = document.cookie;
+	    ini = str.indexOf("nav");
+	    menutype = str.substring(ini+4, ini+7);  // pegar cookie tipo de menu
+		if (menutype == "img") {
+		    location.href="navbare_tv.html";
+		}
+	}
+	var ie4 = ver5 = false;
+	document.cookie = "nav=txt";  // menu com texto é default
+	if (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion) >= 4) {
+		ie4 = true;
+	}
+    if (parseInt(navigator.appVersion) >= 5) {
+		ver5 = true;
+	}
+	function flutuar() {
+		open("navbarf.html", "nav_img", "height=480,width=150,resizable,scrollbars");
+		url = parent.comedia.document.location;
+		parent.name = "imagens";
+		parent.location.href = url;
+	}
+	//--></script>
+	<BASE TARGET="comedia">
+</HEAD>
+
+<BODY text="white" link="yellow" vlink="orange">
+<P style="text-align:center"><A class="mainlink" HREF="../index.html" target="_top"><img src="../imagens/homeicon.gif" width=120 height=41 alt="Volta para a página principal" border="0"></A><p>
+<script><!--
+	if (ie4 || ver5) {
+		document.write("<p class=ref><a href='javascript:void(0)' onclick='flutuar()'>Menu<br>flutuante</a></p>");
+	}
+//--></script>
+<p class=ref><a href="navbare_tv.html" target="_self">Menu com<br>imagens</a></p>
+<DIV style="text-align:center">
+<P style="text-align:center; line-height: 200%"><B>IMAGENS</B><br>
+<table border="1" cellspacing=0 cellpadding=2 class=ref>
+<tr><td><A HREF="dore1.html">Dante (Doré)</A></td></tr>
+<tr><td><A HREF="michelangelo1.html">Dante (Michelangelo)</A></td></tr>
+<tr><td><A HREF="domenico.html">Dante e seus Poemas</A></td></tr>
+<tr><td><A HREF="anonimo1.html">Dante no Exílio</A></td></tr>
+<tr><td><A HREF="signorelli_dante.html">Dante (Signorelli)</a></td></tr>
+<tr><td><A HREF="botticelli_dante.html">Dante (Botticelli)</a></td></tr>
+</table></p></DIV>
+
+<p style="font-size: 11px; text-align: center">Copyright &copy 1999<br>Helder da Rocha</p>
+
+</BODY>
+</HTML>

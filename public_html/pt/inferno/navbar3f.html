@@ -1,0 +1,115 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>Barra Nav Flutuante</TITLE>
+<STYLE>
+	BODY {background-color: rgb(20%,0%,0%); color: rgb(100%,90%,0%);
+              background-image: url(../../imagens/inf_back_bar.jpg)}
+	BODY, P, TD {font-family: tahoma, sans-serif; font-size: 12px; color: rgb(100%,90%,0%);}
+	A:link {color: rgb(100%,90%,0%); font-weight: bold; text-decoration: none}
+	A:visited {color: orange; font-weight: bold; text-decoration: none}
+	P {text-align: center;}
+	P.ref {line-height: 100%; margin-top: 7px; margin-bottom: 7px;
+	        padding: 1px; border-style: outset; border-width: 1px; border-color: brown;
+			background-color: rgb(25%,10%,10%); width: 100%;}
+	A.mainlink:visited {color: rgb(100%,90%,0%); text-decoration: none}
+	.marc {font-size: 11px; text-align: right; line-height: 100%; font-family: tahoma, sans-serif}
+	a:hover {color: rgb(100%,100%,0%);}
+	</STYLE>
+	<script>
+	if(navigator.appName != "Netscape") {
+		document.write("<STYLE>TABLE.ref TD {line-height: 100%; margin-top: 7px; margin-bottom: 7px; padding: 1px; border-style: outset; border-width: 1px; border-color: brown; background-color: rgb(25%,10%,10%);}</STYLE>");
+	}
+	</script>
+	<script> <!--
+	var infhome;
+	function loadImages() {
+		infhome = new Image();
+		infhome.src = "../../imagens/infhome_b.gif";
+		infhome.apagada = document.images["infhome"].src;
+		infhome.acesa = infhome.src;
+	}
+	function acende() {
+		document.infhome.src = infhome.acesa;
+	}
+	function apaga() {
+		document.infhome.src = infhome.apagada;
+	}
+	
+	function getCookies() {
+      cookies = document.cookie.split("; ");
+      for (i = 0; i < cookies.length; i++) {
+         cookies[i] = cookies[i].split("=");
+         cookies[i][0] = unescape(cookies[i][0]); // nome
+         cookies[i][1] = unescape(cookies[i][1]); // valor
+      }
+      return cookies;
+    }
+   
+    function getCookie(name) {
+      cookies = getCookies();
+      for (i = 0; i < cookies.length; i++) {
+         if(cookies[i][0] == name) {
+            return cookies[i][1];      // valor
+         }
+      }
+      return null;
+    }
+	//--></script>
+	<BASE TARGET="imagens">
+</HEAD>
+
+<BODY onload="loadImages()" onunload="document.cookie='menu_imagem=' + escape(getCookie('imagem')); open('inferno.html','imagens')" >
+<P style="text-align:center">
+<img src="../../imagens/homeicon.gif" width=120 height=41 alt="Clique em 'Menu embutido' para fechar esta janela" border="0"><br>
+<img src="../../imagens/infhome.gif" width=74 height=30 alt="Clique em 'Menu embutido' para fechar esta janela" border="0" name="infhome">
+</P>
+<p class=ref><a href="javascript:void(0)" onclick="self.close()">Menu<br>embutido</a></p>
+<DIV style="text-align:center">
+<P style="text-align:center; line-height: 200%"><B>DESENHOS</B><br>
+<table border="1" cellspacing=0 cellpadding=2 class=ref>
+<tr><td><A HREF="dore2.html">Selva escura</A></td></tr>
+<tr><td><A HREF="helder1.html">Portal (1)</A></td></tr>
+<tr><td><A HREF="blake1.html">Portal (2)</A></td></tr>
+<tr><td><A HREF="rodin1.html">Portal (3)</A></td></tr>
+<tr><td><A HREF="dore3.html">Limbo</A></td></tr>
+<tr><td><A HREF="dore4.html">Luxúria (1)</A></td></tr>
+<tr><td><A HREF="blake2.html">Luxúria (2)</A></td></tr>
+<tr><td><A HREF="rossetti1.html">Luxúria (3)</A></td></tr>
+<tr><td><A HREF="feuerbach.html">Luxúria (4)</A></td></tr>
+<tr><td><A HREF="dore5.html">Rio Estige (1)</A></td></tr>
+<tr><td><A HREF="delacroix.html">Rio Estige (2)</A></td></tr>
+<tr><td><A HREF="dore6.html">Heréticos</A></td></tr>
+<tr><td><A HREF="dore7.html">Rio de sangue</A></td></tr>
+<tr><td><A HREF="dore8.html">Suicidas</A></td></tr>
+<tr><td><A HREF="dore9.html">Blasfemos</A></td></tr>
+<tr><td><a href="helder2.html">Gerión (1)</a></td></tr>
+<tr><td><A HREF="dore10.html">Gerión (2)</A></td></tr>
+<tr><td><A HREF="botticelli2.html">Sedutores</A></td></tr>
+<tr><td><A HREF="dore11.html">Simoníacos</A></td></tr>
+<tr><td><A HREF="dore12.html">Fuga dos diabos</A></td></tr>
+<tr><td><A HREF="dore13.html">Ladrões</A></td></tr>
+<tr><td><A HREF="botticelli3.html">Maus conselheiros</A></td></tr>
+<tr><td><A HREF="dore14.html">Bertran de Born</A></td></tr>
+<tr><td><A HREF="dore15.html">Anteu</A></td></tr>
+<tr><td><A HREF="dore16.html">Antenora</A></td></tr>
+<tr><td><A HREF="vellutello.html">Lúcifer</A></td></tr></table> 
+
+</p><p style="text-align:center; line-height: 200%"><B>MAPAS</B><br>
+<table border="1" cellspacing=0 cellpadding=2 class=ref>
+<tr><td><A HREF="botticelli1.html">Inferno (1)</A></td></tr>
+<tr><td><A HREF="mapa6.html">Inferno (2)</A></td></tr> 
+<tr><td><A HREF="bartolomeo.html">Inferno (3)</A></td></tr> 
+<tr><td><A HREF="mapa1.html">Inferno Superior</A></td></tr>
+<tr><td><A HREF="mapa2.html">Cidade de Dite</A></td></tr>
+<tr><td><A HREF="mapa7.html">Sétimo círculo</A></td></tr>
+<tr><td><A HREF="mapa3.html">Malebolge</A></td></tr>
+<tr><td><A HREF="mapa4.html">Lago Cócito</A></td></tr>
+<tr><td><A HREF="mapa5.html">Terra e Inferno</A></td></tr></table></p></DIV>
+
+<p style="font-size: 11px; text-align: center">Copyright &copy 1999<br>Helder da Rocha</p>
+
+</BODY>
+</HTML>

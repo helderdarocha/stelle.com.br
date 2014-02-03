@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Antes que Dante pudesse passar pela porta de São Pedro, o anjo guardião...</enunciado>
+		<alternativas>
+			<alternativa>... saudou-o com uma bênção.</alternativa>
+			<alternativa correta="true">... feriu-o na testa com sua espada.</alternativa>
+			<alternativa>... pediu que ele se ajoelhasse e orasse.</alternativa>
+			<alternativa>... pediu que ele confessasse seus pecados.</alternativa>
+			<alternativa>... pôs uma coroa de louros na sua testa.</alternativa>
+		</alternativas>
+	<resposta>
+	O anjo guardião do purgatório fez sete feridas em forma de "P" na testa de Dante. Elas simbolizam os sete pecados que Dante teria que curar antes de ter acesso ao paraíso (Canto IX).
+	</resposta>
+</questao>

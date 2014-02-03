@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Quais são os seres que habitam o segundo giro do sétimo círculo (a selva dos suicidas)?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa correta="true">As Hárpias</alternativa>
+		<alternativa>As Erínias</alternativa>
+		<alternativa>As Fúrias</alternativa>
+		<alternativa>Os Centauros</alternativa>
+		<alternativa>Os Demônios</alternativa>
+	</alternativas>
+	<resposta>
+	São as Hárpias que fazem seus ninhos om os galhos das árvores da floresta dos suicidas (Canto XIII).
+	</resposta>
+</questao>

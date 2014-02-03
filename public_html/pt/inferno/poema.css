@@ -1,0 +1,32 @@
+H1 {font-size: 28pt; color: maroon;
+    text-align: center;
+	font-style: italic; 
+    font-weight: normal;
+	font-family: Garamond, serif;}
+	
+BODY {background-color: rgb(100%,90%,70%)}	
+	
+P 		{font-size: 14pt; 
+  		 text-align: justify; 
+		 text-indent: 1cm;
+		 font-family: Garamond, serif;}
+P.menu 	{text-align: right}
+P.minimenu 	{text-align: center;
+		     text-indent: 0cm;
+			 font-size: 12pt;
+			 margin: 0px}
+
+TD 		{font-family: Garamond, serif;}
+TD.legenda 	{font-size: 11pt; 
+		     font-family: Garamond, serif;
+             text-align: left}
+			
+A:link 	   {color: rgb(60%,0%,0%); 
+		    text-decoration: none}
+A:visited  {color: rgb(50%,0%,0%); 
+			text-decoration: none}
+A:hover {text-decoration: underline;}
+
+h1 {font-weight: normal; font-style: italic}
+td.num {font-size: 10pt; color: rgb(60%,40%,0%);}
+td.verso {font-size: 14pt; font-family: Garamond, serif}

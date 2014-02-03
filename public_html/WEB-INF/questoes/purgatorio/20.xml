@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual a penitência dos gulosos?</enunciado>
+		<alternativas>
+			<alternativa correta="true">Terem fome e sede em terra de abundância.</alternativa>
+			<alternativa>Engolirem lama continuamente.</alternativa>
+			<alternativa>Sofrerem com o frio, a sede, a fome em um deserto.</alternativa>
+			<alternativa>Terem constantemente visões de um oásis enquanto passam fome.</alternativa>
+			<alternativa>Terem que correr o tempo todo atrás da comida que nunca recebem.</alternativa>
+		</alternativas>
+	<resposta>
+	Os gulosos sofrem porque têm sede e fome em uma cornija repleta de frutos e cascatas das quais não podem usufruir.
+	</resposta>
+</questao>

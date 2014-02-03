@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual o nome do barqueiro que atravessa o rio Estige levando Dante e Virgílio?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Caronte</alternativa>
+		<alternativa>Aqueronte</alternativa>
+		<alternativa>Malebranche</alternativa>
+		<alternativa>Nesso</alternativa>
+		<alternativa correta="true">Flégias</alternativa>
+	</alternativas>
+	<resposta>
+	Flégias é o barqueiro do Estige(Canto VIII). Caronte não é o barqueiro do rio Estige no Inferno de Dante (embora o seja em outras obras mitológicas), mas o barqueiro do rio Aqueronte. Aqueronte é um rio (Canto III). Malebranche é uma legião de demônios (Canto XXI). Nesso não é um barqueiro, mas um centauro (Canto XII).
+	</resposta>
+</questao>

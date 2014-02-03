@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>No vale dos príncipes, Dante adormece ao lado de Sordello e Virgílio e sonha que está sendo levado ao topo de uma montanha por uma águia enorme. Quando ele acorda, ele não está mais no vale dos príncipes. Onde ele está?</enunciado>
+		<alternativas>
+			<alternativa>No paraíso terrestre.</alternativa>
+			<alternativa>No pico da montanha do purgatório.</alternativa>
+			<alternativa>Diante de um anjo, no alto da montanha.</alternativa>
+			<alternativa>Em um lugar alto, protegido por Santa Luzia.</alternativa>
+			<alternativa correta="true">Bem próximo da porta de São Pedro.</alternativa>
+		</alternativas>
+	<resposta>
+	Enquanto Dante dormia, diz Virgílio, Luzia veio e o levou para o alto, deixando-o bem próximo à entrada do purgatório, onde fica a porta de São Pedro, guardada por um anjo (Canto IX).
+	</resposta>
+</questao>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>No primeiro giro do sétimo círculo são punidos os violentos contra o próximo. Todas as almas são mergulhadas em sangue fervente, em níveis diferentes de acordo com a gravidade de seus atos. Há ladrões, assassinos e tiranos. Qual o grau de submersão dos tiranos?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Totalmente submersos</alternativa>
+		<alternativa correta="true">Com o sangue fervente ao nível dos olhos</alternativa>
+		<alternativa>Com o sangue fervente ao nível do pescoço</alternativa>
+		<alternativa>Com o sangue fervente ao nível do peito</alternativa>
+		<alternativa>De cabeça para baixo e apenas os pés de fora</alternativa>
+	</alternativas>
+	<resposta>
+	Os tiranos ficam imersos no rio com o sangue fervente ao nível dos olhos. Veja Canto XII.
+	</resposta>
+</questao>

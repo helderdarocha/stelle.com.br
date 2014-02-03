@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Quem guarda a entrada do Inferno na obra de Dante?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Cérbero, o cão de três cabeças</alternativa>
+		<alternativa>Caronte, o barqueiro</alternativa>
+		<alternativa>Demônios</alternativa>
+		<alternativa correta="true">Ninguém</alternativa>
+		<alternativa>Lúcifer</alternativa>
+	</alternativas>
+	<resposta>
+	Ninguém guarda a porta do Inferno. Ela é ampla e está sempre aberta. Não há grades ou guardas (Canto III).
+	</resposta>
+</questao>

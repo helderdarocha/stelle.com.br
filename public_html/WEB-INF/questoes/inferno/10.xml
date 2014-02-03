@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual das listas de personagens abaixo contém apenas demônios?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Anteu, Nemrod, e Briareu</alternativa>
+		<alternativa>Nesso, Quirón e Caco</alternativa>
+		<alternativa correta="true">Malacoda, Rubicante e Barbariccia</alternativa>
+		<alternativa>Minós, Cérbero e Pluto</alternativa>
+		<alternativa>Caronte, Flégias e Gerión</alternativa>
+	</alternativas>
+	<resposta>
+	Malacoda, Rubicante e Barbariccia são todos demônios que trabalham no mesmo círculo (Canto XXI). Anteu, Nemrod e Briareu são gigantes (Canto XXXI). Nesso Quirón e Caco são centauros (Canto XII). Minós, Cérbero e Pluto guardam a entrada do segundo (Canto V), terceiro (Canto VI) e quarto (Canto VII) círculos, respectivamente. Caronte (Canto III), Flégias (Canto VIII) e Gerión (Canto XVII) transportam Dante e Virgílio através dos abismos e rios do Inferno.
+	</resposta>
+</questao>

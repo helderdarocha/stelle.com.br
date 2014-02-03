@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Quantos dias passou Dante no Purgatório?</enunciado>
+		<alternativas>
+			<alternativa>um dia e meio</alternativa>
+			<alternativa>dois dias e meio</alternativa>
+			<alternativa correta="true">três dias e meio</alternativa>
+			<alternativa>quatro dias e meio</alternativa>
+			<alternativa>cinco dias e meio</alternativa>
+		</alternativas>
+	<resposta>
+	Dante chegou no purgatório no amanhecer do domingo de Páscoa e bebeu das águas do Eunoé ao meio-dia da quarta-feira, depois de passar três dias inteiros e três noites (nas quais teve três sonhos).
+	</resposta>
+</questao>

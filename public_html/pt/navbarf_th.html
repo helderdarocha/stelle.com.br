@@ -1,0 +1,82 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>Barra Nav Flutuante</TITLE>
+	<STYLE>
+	BODY {background-color: rgb(0%,0%,0%); color: rgb(90%,80%,0%);}
+	BODY, P, TD {font-family: tahoma, sans-serif; font-size: 13px; color: rgb(90%,80%,0%);}
+	A:link {color: rgb(90%,80%,0%); font-weight: bold; text-decoration: none}
+	A:visited {color: rgb(60%,50%,0%); font-weight: bold; text-decoration: none}
+	P {text-align: center}
+	P.ref {line-height: 100%; margin-top: 7px; margin-bottom: 7px;
+	        padding: 1px; border-style: outset; border-width: 1px; border-color: gray;
+			background-color: rgb(10%,10%,10%); width: 100%}
+	A.mainlink:visited {color: rgb(90%,80%,0%); text-decoration: none}
+	.marc {font-size: 11px; text-align: right; line-height: 100%; font-family: tahoma, sans-serif}
+	a:hover {color: rgb(100%,90%,0%);}
+	</STYLE>
+	<script>
+	if(navigator.appName != "Netscape") {
+		document.write("<STYLE>TABLE.ref TD {line-height: 100%; margin-top: 7px; margin-bottom: 7px;padding: 1px; border-style: outset; border-width: 1px; border-color: gray;background-color: rgb(10%,10%,10%);}</STYLE>");
+	}
+	</script>
+	<script> <!--
+	function loadImages() {
+		document.cookie = "nav=img";  // menu com imagens é default
+	}
+	
+	function getCookies() {
+      cookies = document.cookie.split("; ");
+      for (i = 0; i < cookies.length; i++) {
+         cookies[i] = cookies[i].split("=");
+         cookies[i][0] = unescape(cookies[i][0]); // nome
+         cookies[i][1] = unescape(cookies[i][1]); // valor
+      }
+      return cookies;
+    }
+   
+    function getCookie(name) {
+      cookies = getCookies();
+      for (i = 0; i < cookies.length; i++) {
+         if(cookies[i][0] == name) {
+            return cookies[i][1];      // valor
+         }
+      }
+      return null;
+    }
+	
+	function embutir() {
+		document.cookie='menu_imagem=' + escape(getCookie('imagem')); 
+		open('index_imagens.html','imagens');
+	}
+	//--></script>
+	<BASE TARGET="imagens">
+</HEAD>
+
+<BODY onload="loadImages()" onunload="embutir()" onblur="focus()">
+<table border=0><tr><td>
+<P style="text-align:center">
+<img src="../imagens/homeicon.gif" width=120 height=41 alt="Clique em 'Menu embutido' para fechar esta janela" border="0"><br>
+<P class=ref><a href="javascript:void(0)" onclick="embutir();setTimeout('self.close()',1000)">Menu embutido</a></P>
+
+<DIV>
+</td><td>
+<table border="1" cellspacing=0 cellpadding=2 class=ref><tr>
+<td>  <A HREF="dore1.html"><img src="../imagens/thumb/Dante.gif" width=78 height=100 alt="Dante por Doré" border="0"></A></td>
+<td>  <A HREF="michelangelo1.html"><img src="../imagens/thumb/michelangelo1.gif" width=78 height=100 alt="Dante por Michelangelo" border="0"></A></td>
+<td>  <A HREF="domenico.html"><img src="../imagens/thumb/domenico.gif" width=100 height=81 alt="Dante e seu Poema por Michelino" border="0"></A></td>
+<td>  <A HREF="anonimo1.html"><img src="../imagens/thumb/dante_exile.gif" width=100 height=78 alt="Dante no Exílio" border="0"></A></td>
+<td> <A HREF="signorelli_dante.html"><img src="../imagens/thumb/signorelli_dante.gif" width=73 height=100 alt="Dante por Signorelli" border="0"></a></td>
+<td> <A HREF="botticelli_dante.html"><img src="../imagens/thumb/botticelli_dante.gif" width=65 height=100 alt="Dante por Botticelli" border="0"></a></td>
+</tr></table></td>
+
+<td valign=center style="font-size: 11px; text-align: center">Copyright &copy 1999<br>Helder da Rocha</td>
+
+</tr></table>
+
+</DIV>
+
+</BODY>
+</HTML>

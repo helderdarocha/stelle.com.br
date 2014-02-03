@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>No oitavo círculo Dante encontra um papa, assando eternamente num buraco, de cabeça para baixo e com os pés em chamas. Quem é esse papa?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>O papa Bonifácio VIII</alternativa>
+		<alternativa>O papa Anastácio II</alternativa>
+		<alternativa>O papa Clemente V</alternativa>
+		<alternativa correta="true">O papa Nicolau III</alternativa>
+		<alternativa>O papa Alexandre VI</alternativa>
+	</alternativas>
+	<resposta>
+	O espírito é o papa Nicolau III, o filho da Ursa. Ele prevê que em pouco tempo será empurrado mais baixo na sua ova, pois acima dele estará o papa Bonifácio, e depois, empilhado sobre Bonifácio estará o papa Clemente.
+	</resposta>
+</questao>

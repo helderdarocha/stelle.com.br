@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<questao>
+	<enunciado>Qual o destino dos corruptos no Inferno de Dante?</enunciado>
+	<alternativas tipo="radio">
+		<alternativa>Sofrerem de doenças degenerativas como lepra e hidropisia</alternativa>
+		<alternativa>Serem dilacerados por demônios</alternativa>
+		<alternativa correta="true">Sofrerem submersos no piche negro e fervente</alternativa>
+		<alternativa>Serem imersos nas suas próprias fezes</alternativa>
+		<alternativa>Serem torturados por serpentes</alternativa>
+	</alternativas>
+	<resposta>
+	Os corruptos sofrem submersos no piche negro e fervente, e quando tentam colocar a cabeça para fora, são dilacerados pelos demônios.
+	</resposta>
+</questao>
